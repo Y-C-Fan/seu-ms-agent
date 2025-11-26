@@ -22,11 +22,11 @@
 
 ### 3.1 角色与组件
 1.  **Orchestrator (编排器)**: 全局控制器，负责调用各模块，管理工作目录，处理异常与重试。
-2.  **Research Module (原样复用)**: 
+2.  **Research Module (原样复用)**:
     *   **Deep Research**: 调用 `projects/deep_research`，用于开放域搜索。
     *   **Doc Research**: 调用 `ms_agent/app/doc_research.py` (或底层 `ResearchWorkflow`)，用于特定文档/URL分析。
     *   输出: `report.md` (自然语言)。
-3.  **Spec Adapter (新增适配器)**: 
+3.  **Spec Adapter (新增适配器)**:
     *   **独立 Agent**。
     *   输入: `report.md`。
     *   输出: `tech_spec.md` (结构化), `api_definitions.json`。
@@ -47,26 +47,26 @@ graph TD
     Orch -->|1. 分流| Branch{有无附件?};
     Branch -->|无附件| Deep[Deep Research (Web Search)];
     Branch -->|有附件/URL| Doc[Doc Research (File Analysis)];
-    
+
     Deep -->|产出| Report[report.md];
     Doc -->|产出| Report;
-    
+
     Report -->|2. 输入| Adapter[Spec Adapter (New Agent)];
     Adapter -->|清洗/结构化| Spec[tech_spec.md];
-    
+
     Spec -->|2.5 人工确认 (可选)| Human{Human Review};
     Human -->|修订| Spec;
-    
+
     Spec -->|3. 输入| TestGen[Test Generator (New Agent)];
     TestGen -->|产出| Tests[tests/test_core.py];
-    
+
     Spec & Tests -->|4. 注入 Workspace| Workspace;
-    
+
     Orch -->|5. 构造 Prompt| Prompt["任务：实现功能... \n 参考：请严格遵循当前目录下的 tech_spec.md 并通过 tests/ 中的测试"];
     Prompt -->|6. 调用| Code[Code Scratch (Blackbox)];
     Code -->|读取| Workspace;
     Code -->|产出| FinalCode[最终代码];
-    
+
     FinalCode -->|7. 验证| Verifier{Orchestrator 验证};
     Verifier -->|测试通过| Success[交付];
     Verifier -->|测试失败| Retry[重试 (带 Error Log)];
@@ -184,9 +184,8 @@ workspace/
 
 **协作里程碑 (Milestones)**:
 1.  **接口定义 (Day 1)**: 全员共同商定 `report.md`、`tech_spec.md` 的标准模板结构，以及各 Python 模块的输入输出接口。
-2.  **模块开发 (Day 2-4)**: 
+2.  **模块开发 (Day 2-4)**:
     *   A 完成编排器框架与 Doc 接口；
     *   B 完成 Spec/Test 生成的 Prompt 验证；
     *   C 完成 Deep/Code 模块的黑盒调用与测试运行器。
 3.  **集成联调 (Day 5)**: 串联 Phase 1 -> 2 -> 3，进行端到端测试。
-

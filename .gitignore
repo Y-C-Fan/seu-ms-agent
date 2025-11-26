@@ -10,6 +10,14 @@ test/
 # C extensions
 *.so
 
+.vscode/
+.claude/
+
+workspace/
+
+paper.pdf
+req.txt
+report.md
 
 # Distribution / packaging
 .Python

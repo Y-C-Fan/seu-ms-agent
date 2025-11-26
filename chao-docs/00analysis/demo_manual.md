@@ -98,6 +98,12 @@ if __name__ == '__main__':
     ```bash
     ms-agent app --app_type doc_research
     ```
+    - 默认监听 7860 端口；若看到 `Cannot find empty port`，说明 7860 被占用，可临时换端口：
+      ```bash
+      ms-agent app --app_type doc_research --server_port 7861
+      ```
+      或事先设置环境变量 `export GRADIO_SERVER_PORT=7861` 再启动。
+    - 启动成功后，终端会输出 `Running on ...:PORT`，浏览器直接打开该地址即可。
 2.  **浏览器访问**: `http://127.0.0.1:7860`
 3.  **操作**:
     - 输入 Prompt: "总结这篇论文的核心创新点"

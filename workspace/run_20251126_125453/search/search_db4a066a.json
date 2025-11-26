@@ -1,0 +1,103 @@
+[
+  {
+    "query": "all:(\"technological advancements\" AND \"AI agents\") AND abs:(deep learning OR reinforcement learning OR neural networks)",
+    "arguments": {
+      "query": "all:(\"technological advancements\" AND \"AI agents\") AND abs:(deep learning OR reinforcement learning OR neural networks)",
+      "max_results": 10,
+      "sort_strategy": "relevance",
+      "sort_order": "descending"
+    },
+    "results": [
+      {
+        "url": "https://arxiv.org/pdf/2505.05108v2",
+        "id": "http://arxiv.org/abs/2505.05108v2",
+        "title": "Multi-agent Embodied AI: Advances and Future Directions",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "Embodied artificial intelligence (Embodied AI) plays a pivotal role in the application of advanced technologies in the intelligent era, where AI systems are integrated with physical bodies that enable them to perceive, reason, and interact with their environments. Through the use of sensors for input and actuators for action, these systems can learn and adapt based on real-world feedback, allowing them to perform tasks effectively in dynamic and unpredictable environments. As techniques such as deep learning (DL), reinforcement learning (RL), and large language models (LLMs) mature, embodied AI has become a leading field in both academia and industry, with applications spanning robotics, healthcare, transportation, and manufacturing. However, most research has focused on single-agent systems that often assume static, closed environments, whereas real-world embodied AI must navigate far more complex scenarios. In such settings, agents must not only interact with their surroundings but also collaborate with other agents, necessitating sophisticated mechanisms for adaptation, real-time learning, and collaborative problem-solving. Despite increasing interest in multi-agent systems, existing research remains narrow in scope, often relying on simplified models that fail to capture the full complexity of dynamic, open environments for multi-agent embodied AI. Moreover, no comprehensive survey has systematically reviewed the advancements in this area. As embodied AI rapidly evolves, it is crucial to deepen our understanding of multi-agent embodied AI to address the challenges presented by real-world applications. To fill this gap and foster further development in the field, this paper reviews the current state of research, analyzes key contributions, and identifies challenges and future directions, providing insights to guide innovation and progress in this field.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/2502.01089v3",
+        "id": "http://arxiv.org/abs/2502.01089v3",
+        "title": "Advanced Architectures Integrated with Agentic AI for Next-Generation Wireless Networks",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "This paper investigates a range of cutting-edge technologies and architectural innovations aimed at simplifying network operations, reducing operational expenditure (OpEx), and enabling the deployment of new service models. The focus is on (i) Proposing novel, more efficient 6G architectures, with both Control and User planes enabling the seamless expansion of services, while addressing long-term 6G network evolution. (ii) Exploring advanced techniques for constrained artificial intelligence (AI) operations, particularly the design of AI agents for real-time learning, optimizing energy consumption, and the allocation of computational resources. (iii) Identifying technologies and architectures that support the orchestration of backend services using serverless computing models across multiple domains, particularly for vertical industries. (iv) Introducing optically-based, ultra-high-speed, low-latency network architectures, with fast optical switching and real-time control, replacing conventional electronic switching to reduce power consumption by an order of magnitude.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/2411.05828v1",
+        "id": "http://arxiv.org/abs/2411.05828v1",
+        "title": "AI Multi-Agent Interoperability Extension for Managing Multiparty Conversations",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "This paper presents a novel extension to the existing Multi-Agent Interoperability specifications of the Open Voice Interoperability Initiative (originally also known as OVON from the Open Voice Network). This extension enables AI agents developed with different technologies to communicate using a universal, natural language-based API or NLP-based standard APIs. Focusing on the management of multiparty AI conversations, this work introduces new concepts such as the Convener Agent, Floor-Shared Conversational Space, Floor Manager, Multi-Conversant Support, and mechanisms for handling Interruptions and Uninvited Agents. Additionally, it explores the Convener's role as a message relay and controller of participant interactions, enhancing both scalability and security. These advancements are crucial for ensuring smooth, efficient, and secure interactions in scenarios where multiple AI agents need to collaborate, debate, or contribute to a discussion. The paper elaborates on these concepts and provides practical examples, illustrating their implementation within the conversation envelope structure.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/2508.18725v1",
+        "id": "http://arxiv.org/abs/2508.18725v1",
+        "title": "Toward Edge General Intelligence with Agentic AI and Agentification: Concepts, Technologies, and Future Directions",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "The rapid expansion of sixth-generation (6G) wireless networks and the Internet of Things (IoT) has catalyzed the evolution from centralized cloud intelligence towards decentralized edge general intelligence. However, traditional edge intelligence methods, characterized by static models and limited cognitive autonomy, fail to address the dynamic, heterogeneous, and resource-constrained scenarios inherent to emerging edge networks. Agentic artificial intelligence (Agentic AI) emerges as a transformative solution, enabling edge systems to autonomously perceive multimodal environments, reason contextually, and adapt proactively through continuous perception-reasoning-action loops. In this context, the agentification of edge intelligence serves as a key paradigm shift, where distributed entities evolve into autonomous agents capable of collaboration and continual adaptation. This paper presents a comprehensive survey dedicated to Agentic AI and agentification frameworks tailored explicitly for edge general intelligence. First, we systematically introduce foundational concepts and clarify distinctions from traditional edge intelligence paradigms. Second, we analyze important enabling technologies, including compact model compression, energy-aware computing strategies, robust connectivity frameworks, and advanced knowledge representation and reasoning mechanisms. Third, we provide representative case studies demonstrating Agentic AI's capabilities in low-altitude economy networks, intent-driven networking, vehicular networks, and human-centric service provisioning, supported by numerical evaluations. Furthermore, we identify current research challenges, review emerging open-source platforms, and highlight promising future research directions to guide robust, scalable, and trustworthy Agentic AI deployments for next-generation edge environments.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/2506.09107v1",
+        "id": "http://arxiv.org/abs/2506.09107v1",
+        "title": "FAIRTOPIA: Envisioning Multi-Agent Guardianship for Disrupting Unfair AI Pipelines",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "AI models have become active decision makers, often acting without human supervision. The rapid advancement of AI technology has already caused harmful incidents that have hurt individuals and societies and AI unfairness in heavily criticized. It is urgent to disrupt AI pipelines which largely neglect human principles and focus on computational biases exploration at the data (pre), model(in), and deployment (post) processing stages. We claim that by exploiting the advances of agents technology, we will introduce cautious, prompt, and ongoing fairness watch schemes, under realistic, systematic, and human-centric fairness expectations. We envision agents as fairness guardians, since agents learn from their environment, adapt to new information, and solve complex problems by interacting with external tools and other systems. To set the proper fairness guardrails in the overall AI pipeline, we introduce a fairness-by-design approach which embeds multi-role agents in an end-to-end (human to AI) synergetic scheme. Our position is that we may design adaptive and realistic AI fairness frameworks, and we introduce a generalized algorithm which can be customized to the requirements and goals of each AI decision making scenario. Our proposed, so called FAIRTOPIA framework, is structured over a three-layered architecture, which encapsulates the AI pipeline inside an agentic guardian and a knowledge-based, self-refining layered scheme. Based on our proposition, we enact fairness watch in all of the AI pipeline stages, under robust multi-agent workflows, which will inspire new fairness research hypothesis, heuristics, and methods grounded in human-centric, systematic, interdisciplinary, socio-technical principles.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/2412.18601v1",
+        "id": "http://arxiv.org/abs/2412.18601v1",
+        "title": "Decentralized Intelligence in GameFi: Embodied AI Agents and the Convergence of DeFi and Virtual Ecosystems",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "In the rapidly evolving landscape of GameFi, a fusion of gaming and decentralized finance (DeFi), there exists a critical need to enhance player engagement and economic interaction within gaming ecosystems. Our GameFi ecosystem aims to fundamentally transform this landscape by integrating advanced embodied AI agents into GameFi platforms. These AI agents, developed using cutting-edge large language models (LLMs), such as GPT-4 and Claude AI, are capable of proactive, adaptive, and contextually rich interactions with players. By going beyond traditional scripted responses, these agents become integral participants in the game's narrative and economic systems, directly influencing player strategies and in-game economies. We address the limitations of current GameFi platforms, which often lack immersive AI interactions and mechanisms for community engagement or creator monetization. Through the deep integration of AI agents with blockchain technology, we establish a consensus-driven, decentralized GameFi ecosystem. This ecosystem empowers creators to monetize their contributions and fosters democratic collaboration among players and creators. Furthermore, by embedding DeFi mechanisms into the gaming experience, we enhance economic participation and provide new opportunities for financial interactions within the game. Our approach enhances player immersion and retention and advances the GameFi ecosystem by bridging traditional gaming with Web3 technologies. By integrating sophisticated AI and DeFi elements, we contribute to the development of more engaging, economically robust, and community-centric gaming environments. This project represents a significant advancement in the state-of-the-art in GameFi, offering insights and methodologies that can be applied throughout the gaming industry.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/2505.12710v1",
+        "id": "http://arxiv.org/abs/2505.12710v1",
+        "title": "Confidence-Regulated Generative Diffusion Models for Reliable AI Agent Migration in Vehicular Metaverses",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "Vehicular metaverses are an emerging paradigm that merges intelligent transportation systems with virtual spaces, leveraging advanced digital twin and Artificial Intelligence (AI) technologies to seamlessly integrate vehicles, users, and digital environments. In this paradigm, vehicular AI agents are endowed with environment perception, decision-making, and action execution capabilities, enabling real-time processing and analysis of multi-modal data to provide users with customized interactive services. Since vehicular AI agents require substantial resources for real-time decision-making, given vehicle mobility and network dynamics conditions, the AI agents are deployed in RoadSide Units (RSUs) with sufficient resources and dynamically migrated among them. However, AI agent migration requires frequent data exchanges, which may expose vehicular metaverses to potential cyber attacks. To this end, we propose a reliable vehicular AI agent migration framework, achieving reliable dynamic migration and efficient resource scheduling through cooperation between vehicles and RSUs. Additionally, we design a trust evaluation model based on the theory of planned behavior to dynamically quantify the reputation of RSUs, thereby better accommodating the personalized trust preferences of users. We then model the vehicular AI agent migration process as a partially observable markov decision process and develop a Confidence-regulated Generative Diffusion Model (CGDM) to efficiently generate AI agent migration decisions. Numerical results demonstrate that the CGDM algorithm significantly outperforms baseline methods in reducing system latency and enhancing robustness against cyber attacks.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/2504.21433v1",
+        "id": "http://arxiv.org/abs/2504.21433v1",
+        "title": "NGENT: Next-Generation AI Agents Must Integrate Multi-Domain Abilities to Achieve Artificial General Intelligence",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "This paper argues that the next generation of AI agent (NGENT) should integrate across-domain abilities to advance toward Artificial General Intelligence (AGI). Although current AI agents are effective in specialized tasks such as robotics, role-playing, and tool-using, they remain confined to narrow domains. We propose that future AI agents should synthesize the strengths of these specialized systems into a unified framework capable of operating across text, vision, robotics, reinforcement learning, emotional intelligence, and beyond. This integration is not only feasible but also essential for achieving the versatility and adaptability that characterize human intelligence. The convergence of technologies across AI domains, coupled with increasing user demand for cross-domain capabilities, suggests that such integration is within reach. Ultimately, the development of these versatile agents is a critical step toward realizing AGI. This paper explores the rationale for this shift, potential pathways for achieving it.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/2510.00078v1",
+        "id": "http://arxiv.org/abs/2510.00078v1",
+        "title": "Adaptive and Resource-efficient Agentic AI Systems for Mobile and Embedded Devices: A Survey",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "Foundation models have reshaped AI by unifying fragmented architectures into scalable backbones with multimodal reasoning and contextual adaptation. In parallel, the long-standing notion of AI agents, defined by the sensing-decision-action loop, is entering a new paradigm: with FMs as their cognitive core, agents transcend rule-based behaviors to achieve autonomy, generalization, and self-reflection. This dual shift is reinforced by real-world demands such as autonomous driving, robotics, virtual assistants, and GUI agents, as well as ecosystem advances in embedded hardware, edge computing, mobile deployment platforms, and communication protocols that together enable large-scale deployment. Yet this convergence collides with reality: while applications demand long-term adaptability and real-time interaction, mobile and edge deployments remain constrained by memory, energy, bandwidth, and latency. This creates a fundamental tension between the growing complexity of FMs and the limited resources of deployment environments. This survey provides the first systematic characterization of adaptive, resource-efficient agentic AI systems. We summarize enabling techniques into elastic inference, test-time adaptation, dynamic multimodal integration, and agentic AI applications, and identify open challenges in balancing accuracy-latency-communication trade-offs and sustaining robustness under distribution shifts. We further highlight future opportunities in algorithm-system co-design, cognitive adaptation, and collaborative edge deployment. By mapping FM structures, cognition, and hardware resources, this work establishes a unified perspective toward scalable, adaptive, and resource-efficient agentic AI. We believe this survey can help readers to understand the connections between enabling technologies while promoting further discussions on the fusion of agentic intelligence and intelligent agents.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/2506.08045v1",
+        "id": "http://arxiv.org/abs/2506.08045v1",
+        "title": "UAVs Meet Agentic AI: A Multidomain Survey of Autonomous Aerial Intelligence and Agentic UAVs",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "Agentic UAVs represent a new frontier in autonomous aerial intelligence, integrating perception, decision-making, memory, and collaborative planning to operate adaptively in complex, real-world environments. Driven by recent advances in Agentic AI, these systems surpass traditional UAVs by exhibiting goal-driven behavior, contextual reasoning, and interactive autonomy. We provide a comprehensive foundation for understanding the architectural components and enabling technologies that distinguish Agentic UAVs from traditional autonomous UAVs. Furthermore, a detailed comparative analysis highlights advancements in autonomy with AI agents, learning, and mission flexibility. This study explores seven high-impact application domains precision agriculture, construction & mining, disaster response, environmental monitoring, infrastructure inspection, logistics, security, and wildlife conservation, illustrating the broad societal value of agentic aerial intelligence. Furthermore, we identify key challenges in technical constraints, regulatory limitations, and data-model reliability, and we present emerging solutions across hardware innovation, learning architectures, and human-AI interaction. Finally, a future roadmap is proposed, outlining pathways toward self-evolving aerial ecosystems, system-level collaboration, and sustainable, equitable deployments. This survey establishes a foundational framework for the future development, deployment, and governance of agentic aerial systems (Agentic UAVs) across diverse societal and industrial domains.",
+        "markdown": null
+      }
+    ]
+  }
+]

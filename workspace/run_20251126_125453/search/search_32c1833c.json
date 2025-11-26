@@ -1,0 +1,94 @@
+[
+  {
+    "query": "all:(\"ethical considerations\" AND \"AI agents\") AND abs:(autonomy OR privacy OR bias)",
+    "arguments": {
+      "query": "all:(\"ethical considerations\" AND \"AI agents\") AND abs:(autonomy OR privacy OR bias)",
+      "max_results": 10,
+      "sort_strategy": "relevance",
+      "sort_order": "descending"
+    },
+    "results": [
+      {
+        "url": "https://arxiv.org/pdf/2304.09399v3",
+        "id": "http://arxiv.org/abs/2304.09399v3",
+        "title": "Designing a realistic peer-like embodied conversational agent for supporting children's storytelling",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "Advances in artificial intelligence have facilitated the use of large language models (LLMs) and AI-generated synthetic media in education, which may inspire HCI researchers to develop technologies, in particular, embodied conversational agents (ECAs) to simulate the kind of scaffolding children might receive from a human partner. In this paper, we will propose a design prototype of a peer-like ECA named STARie that integrates multiple AI models - GPT-3, Speech Synthesis (Real-time Voice Cloning), VOCA (Voice Operated Character Animation), and FLAME (Faces Learned with an Articulated Model and Expressions) that aims to support narrative production in collaborative storytelling, specifically for children aged 4-8. However, designing a child-centered ECA raises concerns about age appropriateness, children privacy, gender choices of ECAs, and the uncanny valley effect. Thus, this paper will also discuss considerations and ethical concerns that must be taken into account when designing such an ECA. This proposal offers insights into the potential use of AI-generated synthetic media in child-centered AI design and how peer-like AI embodiment may support children\\textquotesingle s storytelling.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/2502.00289v3",
+        "id": "http://arxiv.org/abs/2502.00289v3",
+        "title": "Agentic AI: Autonomy, Accountability, and the Algorithmic Society",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "Agentic Artificial Intelligence (AI) can autonomously pursue long-term goals, make decisions, and execute complex, multi-turn workflows. Unlike traditional generative AI, which responds reactively to prompts, agentic AI proactively orchestrates processes, such as autonomously managing complex tasks or making real-time decisions. This transition from advisory roles to proactive execution challenges established legal, economic, and creative frameworks. In this paper, we explore challenges in three interrelated domains: creativity and intellectual property, legal and ethical considerations, and competitive effects. Central to our analysis is the tension between novelty and usefulness in AI-generated creative outputs, as well as the intellectual property and authorship challenges arising from AI autonomy. We highlight gaps in responsibility attribution and liability that create a \"moral crumple zone\"--a condition where accountability is diffused across multiple actors, leaving end-users and developers in precarious legal and ethical positions. We examine the competitive dynamics of two-sided algorithmic markets, where both sellers and buyers deploy AI agents, potentially mitigating or amplifying tacit collusion risks. We explore the potential for emergent self-regulation within networks of agentic AI--the development of an \"algorithmic society\"--raising critical questions: To what extent would these norms align with societal values? What unintended consequences might arise? How can transparency and accountability be ensured? Addressing these challenges will necessitate interdisciplinary collaboration to redefine legal accountability, align AI-driven choices with stakeholder values, and maintain ethical safeguards. We advocate for frameworks that balance autonomy with accountability, ensuring all parties can harness agentic AI's potential while preserving trust, fairness, & societal welfare.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/2507.16229v1",
+        "id": "http://arxiv.org/abs/2507.16229v1",
+        "title": "Voice-based AI Agents: Filling the Economic Gaps in Digital Health Delivery",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "The integration of voice-based AI agents in healthcare presents a transformative opportunity to bridge economic and accessibility gaps in digital health delivery. This paper explores the role of large language model (LLM)-powered voice assistants in enhancing preventive care and continuous patient monitoring, particularly in underserved populations. Drawing insights from the development and pilot study of Agent PULSE (Patient Understanding and Liaison Support Engine) -- a collaborative initiative between IBM Research, Cleveland Clinic Foundation, and Morehouse School of Medicine -- we present an economic model demonstrating how AI agents can provide cost-effective healthcare services where human intervention is economically unfeasible. Our pilot study with 33 inflammatory bowel disease patients revealed that 70\\% expressed acceptance of AI-driven monitoring, with 37\\% preferring it over traditional modalities. Technical challenges, including real-time conversational AI processing, integration with healthcare systems, and privacy compliance, are analyzed alongside policy considerations surrounding regulation, bias mitigation, and patient autonomy. Our findings suggest that AI-driven voice agents not only enhance healthcare scalability and efficiency but also improve patient engagement and accessibility. For healthcare executives, our cost-utility analysis demonstrates huge potential savings for routine monitoring tasks, while technologists can leverage our framework to prioritize improvements yielding the highest patient impact. By addressing current limitations and aligning AI development with ethical and regulatory frameworks, voice-based AI agents can serve as a critical entry point for equitable, sustainable digital healthcare solutions.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/2511.13987v1",
+        "id": "http://arxiv.org/abs/2511.13987v1",
+        "title": "Artificial Intelligence Agents in Music Analysis: An Integrative Perspective Based on Two Use Cases",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "This paper presents an integrative review and experimental validation of artificial intelligence (AI) agents applied to music analysis and education. We synthesize the historical evolution from rule-based models to contemporary approaches involving deep learning, multi-agent architectures, and retrieval-augmented generation (RAG) frameworks. The pedagogical implications are evaluated through a dual-case methodology: (1) the use of generative AI platforms in secondary education to foster analytical and creative skills; (2) the design of a multiagent system for symbolic music analysis, enabling modular, scalable, and explainable workflows.\n  Experimental results demonstrate that AI agents effectively enhance musical pattern recognition, compositional parameterization, and educational feedback, outperforming traditional automated methods in terms of interpretability and adaptability. The findings highlight key challenges concerning transparency, cultural bias, and the definition of hybrid evaluation metrics, emphasizing the need for responsible deployment of AI in educational environments.\n  This research contributes to a unified framework that bridges technical, pedagogical, and ethical considerations, offering evidence-based guidance for the design and application of intelligent agents in computational musicology and music education.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/2403.14680v3",
+        "id": "http://arxiv.org/abs/2403.14680v3",
+        "title": "Trust in AI: Progress, Challenges, and Future Directions",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "The increasing use of artificial intelligence (AI) systems in our daily life through various applications, services, and products explains the significance of trust/distrust in AI from a user perspective. AI-driven systems (as opposed to other technologies) have ubiquitously diffused in our life not only as some beneficial tools to be used by human agents but also are going to be substitutive agents on our behalf, or manipulative minds that would influence human thought, decision, and agency. Trust/distrust in AI plays the role of a regulator and could significantly control the level of this diffusion, as trust can increase, and distrust may reduce the rate of adoption of AI. Recently, varieties of studies have paid attention to the variant dimension of trust/distrust in AI, and its relevant considerations. In this systematic literature review, after conceptualization of trust in the current AI literature review, we will investigate trust in different types of human-Machine interaction, and its impact on technology acceptance in different domains. In addition to that, we propose a taxonomy of technical (i.e., safety, accuracy, robustness) and non-technical axiological (i.e., ethical, legal, and mixed) trustworthiness metrics, and some trustworthy measurements. Moreover, we examine some major trust-breakers in AI (e.g., autonomy and dignity threat), and trust makers; and propose some future directions and probable solutions for the transition to a trustworthy AI.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/2510.17119v1",
+        "id": "http://arxiv.org/abs/2510.17119v1",
+        "title": "Design Framework for Conversational Agent in Couple relationships: A Systematic Review",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "The development of conversational agents (CAs) has shown strong potential in supporting mental health through dialogue. While many studies focus on CAs for individual psychological care, research on agents designed for couples facing relational or emotional challenges remains limited. This study aims to identify design considerations for CAs that address the relational context of couples and support their well-being. Following PRISMA guidelines, a systematic review was conducted across seven databases: CINAHL, Embase, PubMed, PsycINFO, Scopus, Web of Science, and the ACM Digital Library. Peer-reviewed empirical studies were screened, duplicates removed, and selection criteria applied, resulting in twelve studies for analysis. Thematic analysis was conducted across three dimensions: AI interaction design, relational framing, and technical limitations. Three key themes emerged: (1) the need for a relational expert persona, (2) technological directions leveraging state-of-the-art AI for relational specificity and emotional competence, and (3) a shift from content-centered to relationship-centered design. Based on these insights, eight design considerations are proposed for couple-oriented CAs: (1) agent persona, (2) individual mode, (3) concurrent mode, (4) conjoint mode, (5) ethics, (6) data and privacy, (7) interaction pattern, and (8) safety mechanism. These principles guide CAs as relational mediators capable of maintaining multiple alliances, respecting cultural and ethical boundaries, and ensuring fairness and emotional safety between partners. Ultimately, this review introduces a design framework that integrates relational theory with advanced AI technologies to inform future development of CAs for couple-based mental health interventions.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/2408.12142v2",
+        "id": "http://arxiv.org/abs/2408.12142v2",
+        "title": "MDD-5k: A New Diagnostic Conversation Dataset for Mental Disorders Synthesized via Neuro-Symbolic LLM Agents",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "The clinical diagnosis of most mental disorders primarily relies on the conversations between psychiatrist and patient. The creation of such diagnostic conversation datasets is promising to boost the AI mental healthcare community. However, directly collecting the conversations in real diagnosis scenarios is near impossible due to stringent privacy and ethical considerations. To address this issue, we seek to synthesize diagnostic conversation by exploiting anonymized patient cases that are easier to access. Specifically, we design a neuro-symbolic multi-agent framework for synthesizing the diagnostic conversation of mental disorders with large language models. It takes patient case as input and is capable of generating multiple diverse conversations with one single patient case. The framework basically involves the interaction between a doctor agent and a patient agent, and generates conversations under symbolic control via a dynamic diagnosis tree. By applying the proposed framework, we develop the largest Chinese mental disorders diagnosis dataset MDD-5k. This dataset is built upon 1000 real, anonymized patient cases by cooperating with Shanghai Mental Health Center and comprises 5000 high-quality long conversations with diagnosis results and treatment opinions as labels. To the best of our knowledge, it's also the first labeled dataset for Chinese mental disorders diagnosis. Human evaluation demonstrates the proposed MDD-5k dataset successfully simulates human-like diagnostic process of mental disorders.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/2410.06472v2",
+        "id": "http://arxiv.org/abs/2410.06472v2",
+        "title": "Enabling Novel Mission Operations and Interactions with ROSA: The Robot Operating System Agent",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "The advancement of robotic systems has revolutionized numerous industries, yet their operation often demands specialized technical knowledge, limiting accessibility for non-expert users. This paper introduces ROSA (Robot Operating System Agent), an AI-powered agent that bridges the gap between the Robot Operating System (ROS) and natural language interfaces. By leveraging state-of-the-art language models and integrating open-source frameworks, ROSA enables operators to interact with robots using natural language, translating commands into actions and interfacing with ROS through well-defined tools. ROSA's design is modular and extensible, offering seamless integration with both ROS1 and ROS2, along with safety mechanisms like parameter validation and constraint enforcement to ensure secure, reliable operations. While ROSA is originally designed for ROS, it can be extended to work with other robotics middle-wares to maximize compatibility across missions. ROSA enhances human-robot interaction by democratizing access to complex robotic systems, empowering users of all expertise levels with multi-modal capabilities such as speech integration and visual perception. Ethical considerations are thoroughly addressed, guided by foundational principles like Asimov's Three Laws of Robotics, ensuring that AI integration promotes safety, transparency, privacy, and accountability. By making robotic technology more user-friendly and accessible, ROSA not only improves operational efficiency but also sets a new standard for responsible AI use in robotics and potentially future mission operations. This paper introduces ROSA's architecture and showcases initial mock-up operations in JPL's Mars Yard, a laboratory, and a simulation using three different robots. The core ROSA library is available as open-source.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/2406.12934v1",
+        "id": "http://arxiv.org/abs/2406.12934v1",
+        "title": "Current state of LLM Risks and AI Guardrails",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "Large language models (LLMs) have become increasingly sophisticated, leading to widespread deployment in sensitive applications where safety and reliability are paramount. However, LLMs have inherent risks accompanying them, including bias, potential for unsafe actions, dataset poisoning, lack of explainability, hallucinations, and non-reproducibility. These risks necessitate the development of \"guardrails\" to align LLMs with desired behaviors and mitigate potential harm.\n  This work explores the risks associated with deploying LLMs and evaluates current approaches to implementing guardrails and model alignment techniques. We examine intrinsic and extrinsic bias evaluation methods and discuss the importance of fairness metrics for responsible AI development. The safety and reliability of agentic LLMs (those capable of real-world actions) are explored, emphasizing the need for testability, fail-safes, and situational awareness.\n  Technical strategies for securing LLMs are presented, including a layered protection model operating at external, secondary, and internal levels. System prompts, Retrieval-Augmented Generation (RAG) architectures, and techniques to minimize bias and protect privacy are highlighted.\n  Effective guardrail design requires a deep understanding of the LLM's intended use case, relevant regulations, and ethical considerations. Striking a balance between competing requirements, such as accuracy and privacy, remains an ongoing challenge. This work underscores the importance of continuous research and development to ensure the safe and responsible use of LLMs in real-world applications.",
+        "markdown": null
+      }
+    ]
+  }
+]

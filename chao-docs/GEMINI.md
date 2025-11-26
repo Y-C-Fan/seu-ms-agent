@@ -108,7 +108,7 @@ from ms_agent.config import Config
 async def main():
     # 1. 加载配置
     config = Config.from_task('ms_agent/agent/agent.yaml')
-    
+
     # 2. 实例化智能体
     # 可选：指定 mcp_server_file 连接外部工具
     llm_agent = LLMAgent(config=config)

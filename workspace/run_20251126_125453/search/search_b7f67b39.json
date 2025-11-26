@@ -1,0 +1,103 @@
+[
+  {
+    "query": "all:(\"recent advances\" AND \"AI agents\") AND ti:(conversational OR autonomous)",
+    "arguments": {
+      "query": "all:(\"recent advances\" AND \"AI agents\") AND ti:(conversational OR autonomous)",
+      "max_results": 10,
+      "sort_strategy": "relevance",
+      "sort_order": "descending"
+    },
+    "results": [
+      {
+        "url": "https://arxiv.org/pdf/2501.06706v1",
+        "id": "http://arxiv.org/abs/2501.06706v1",
+        "title": "AIOpsLab: A Holistic Framework to Evaluate AI Agents for Enabling Autonomous Clouds",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "AI for IT Operations (AIOps) aims to automate complex operational tasks, such as fault localization and root cause analysis, to reduce human workload and minimize customer impact. While traditional DevOps tools and AIOps algorithms often focus on addressing isolated operational tasks, recent advances in Large Language Models (LLMs) and AI agents are revolutionizing AIOps by enabling end-to-end and multitask automation. This paper envisions a future where AI agents autonomously manage operational tasks throughout the entire incident lifecycle, leading to self-healing cloud systems, a paradigm we term AgentOps. Realizing this vision requires a comprehensive framework to guide the design, development, and evaluation of these agents. To this end, we present AIOPSLAB, a framework that not only deploys microservice cloud environments, injects faults, generates workloads, and exports telemetry data but also orchestrates these components and provides interfaces for interacting with and evaluating agents. We discuss the key requirements for such a holistic framework and demonstrate how AIOPSLAB can facilitate the evaluation of next-generation AIOps agents. Through evaluations of state-of-the-art LLM agents within the benchmark created by AIOPSLAB, we provide insights into their capabilities and limitations in handling complex operational tasks in cloud environments.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/2506.08045v1",
+        "id": "http://arxiv.org/abs/2506.08045v1",
+        "title": "UAVs Meet Agentic AI: A Multidomain Survey of Autonomous Aerial Intelligence and Agentic UAVs",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "Agentic UAVs represent a new frontier in autonomous aerial intelligence, integrating perception, decision-making, memory, and collaborative planning to operate adaptively in complex, real-world environments. Driven by recent advances in Agentic AI, these systems surpass traditional UAVs by exhibiting goal-driven behavior, contextual reasoning, and interactive autonomy. We provide a comprehensive foundation for understanding the architectural components and enabling technologies that distinguish Agentic UAVs from traditional autonomous UAVs. Furthermore, a detailed comparative analysis highlights advancements in autonomy with AI agents, learning, and mission flexibility. This study explores seven high-impact application domains precision agriculture, construction & mining, disaster response, environmental monitoring, infrastructure inspection, logistics, security, and wildlife conservation, illustrating the broad societal value of agentic aerial intelligence. Furthermore, we identify key challenges in technical constraints, regulatory limitations, and data-model reliability, and we present emerging solutions across hardware innovation, learning architectures, and human-AI interaction. Finally, a future roadmap is proposed, outlining pathways toward self-evolving aerial ecosystems, system-level collaboration, and sustainable, equitable deployments. This survey establishes a foundational framework for the future development, deployment, and governance of agentic aerial systems (Agentic UAVs) across diverse societal and industrial domains.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/2407.08516v5",
+        "id": "http://arxiv.org/abs/2407.08516v5",
+        "title": "Converging Paradigms: The Synergy of Symbolic and Connectionist AI in LLM-Empowered Autonomous Agents",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "This article explores the convergence of connectionist and symbolic artificial intelligence (AI), from historical debates to contemporary advancements. Traditionally considered distinct paradigms, connectionist AI focuses on neural networks, while symbolic AI emphasizes symbolic representation and logic. Recent advancements in large language models (LLMs), exemplified by ChatGPT and GPT-4, highlight the potential of connectionist architectures in handling human language as a form of symbols. The study argues that LLM-empowered Autonomous Agents (LAAs) embody this paradigm convergence. By utilizing LLMs for text-based knowledge modeling and representation, LAAs integrate neuro-symbolic AI principles, showcasing enhanced reasoning and decision-making capabilities. Comparing LAAs with Knowledge Graphs within the neuro-symbolic AI theme highlights the unique strengths of LAAs in mimicking human-like reasoning processes, scaling effectively with large datasets, and leveraging in-context samples without explicit re-training. The research underscores promising avenues in neuro-vector-symbolic integration, instructional encoding, and implicit reasoning, aimed at further enhancing LAA capabilities. By exploring the progression of neuro-symbolic AI and proposing future research trajectories, this work advances the understanding and development of AI technologies.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/2509.14778v2",
+        "id": "http://arxiv.org/abs/2509.14778v2",
+        "title": "OpenLens AI: Fully Autonomous Research Agent for Health Infomatics",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "Health informatics research is characterized by diverse data modalities, rapid knowledge expansion, and the need to integrate insights across biomedical science, data analytics, and clinical practice. These characteristics make it particularly well-suited for agent-based approaches that can automate knowledge exploration, manage complex workflows, and generate clinically meaningful outputs. Recent progress in large language model (LLM)-based agents has demonstrated promising capabilities in literature synthesis, data analysis, and even end-to-end research execution. However, existing systems remain limited for health informatics because they lack mechanisms to interpret medical visualizations and often overlook domain-specific quality requirements. To address these gaps, we introduce OpenLens AI, a fully automated framework tailored to health informatics. OpenLens AI integrates specialized agents for literature review, data analysis, code generation, and manuscript preparation, enhanced by vision-language feedback for medical visualization and quality control for reproducibility. The framework automates the entire research pipeline, producing publication-ready LaTeX manuscripts with transparent and traceable workflows, thereby offering a domain-adapted solution for advancing health informatics research.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/2509.04871v1",
+        "id": "http://arxiv.org/abs/2509.04871v1",
+        "title": "Cloning a Conversational Voice AI Agent from Call\\,Recording Datasets for Telesales",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "Recent advances in language and speech modelling have made it possible to build autonomous voice assistants that understand and generate human dialogue in real time. These systems are increasingly being deployed in domains such as customer service and healthcare care, where they can automate repetitive tasks, reduce operational costs, and provide constant support around the clock. In this paper, we present a general methodology for cloning a conversational voice AI agent from a corpus of call recordings. Although the case study described in this paper uses telesales data to illustrate the approach, the underlying process generalizes to any domain where call transcripts are available. Our system listens to customers over the telephone, responds with a synthetic voice, and follows a structured playbook learned from top performing human agents. We describe the domain selection, knowledge extraction, and prompt engineering used to construct the agent, integrating automatic speech recognition, a large language model based dialogue manager, and text to speech synthesis into a streaming inference pipeline. The cloned agent is evaluated against human agents on a rubric of 22 criteria covering introduction, product communication, sales drive, objection handling, and closing. Blind tests show that the AI agent approaches human performance in routine aspects of the call while underperforming in persuasion and objection handling. We analyze these shortcomings and refine the prompt accordingly. The paper concludes with design lessons and avenues for future research, including large scale simulation and automated evaluation.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/2508.18406v1",
+        "id": "http://arxiv.org/abs/2508.18406v1",
+        "title": "Toward Generalized Autonomous Agents: A Neuro-Symbolic AI Framework for Integrating Social and Technical Support in Education",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "One of the enduring challenges in education is how to empower students to take ownership of their learning by setting meaningful goals, tracking their progress, and adapting their strategies when faced with setbacks. Research has shown that this form of leaner-centered learning is best cultivated through structured, supportive environments that promote guided practice, scaffolded inquiry, and collaborative dialogue. In response, educational efforts have increasingly embraced artificial-intelligence (AI)-powered digital learning environments, ranging from educational apps and virtual labs to serious games. Recent advances in large language models (LLMs) and neuro-symbolic systems, meanwhile, offer a transformative opportunity to reimagine how support is delivered in digital learning environments. LLMs are enabling socially interactive learning experiences and scalable, cross-domain learning support that can adapt instructional strategies across varied subjects and contexts. In parallel, neuro-symbolic AI provides new avenues for designing these agents that are not only adaptive but also scalable across domains. Based on these remarks, this paper presents a multi-agent, neuro-symbolic framework designed to resolve the aforementioned challenges. The framework assigns distinct pedagogical roles to specialized agents: an RL-based 'tutor' agent provides authoritative, non-verbal scaffolding, while a proactive, LLM-powered 'peer' agent facilitates the social dimensions of learning. While prior work has explored such agents in isolation, our framework's novelty lies in unifying them through a central educational ontology. Through case studies in both college-level and middle school settings, we demonstrate the framework's adaptability across domains. We conclude by outlining key insights and future directions for advancing AI-driven learning environments.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/2412.18371v2",
+        "id": "http://arxiv.org/abs/2412.18371v2",
+        "title": "Defining and Detecting the Defects of the Large Language Model-based Autonomous Agents",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "AI agents are systems capable of perceiving their environment, autonomously planning and executing tasks. Recent advancements in LLM have introduced a transformative paradigm for AI agents, enabling them to interact with external resources and tools through prompts. In such agents, the workflow integrates developer-written code, which manages framework construction and logic control, with LLM-generated natural language that enhances dynamic decision-making and interaction. However, discrepancies between developer-implemented logic and the dynamically generated content of LLMs in terms of behavior and expected outcomes can lead to defects, such as tool invocation failures and task execution errors. These issues introduce specific risks, leading to various defects in LLM-based AI Agents, such as service interruptions. Despite the importance of these issues, there is a lack of systematic work that focuses on analyzing LLM-based AI Agents to uncover defects in their code. In this paper, we present the first study focused on identifying and detecting defects in LLM Agents. We collected and analyzed 6,854 relevant posts from StackOverflow to define 8 types of agent defects. For each type, we provided detailed descriptions with an example. Then, we designed a static analysis tool, named Agentable, to detect the defects. Agentable leverages Code Property Graphs and LLMs to analyze Agent workflows by efficiently identifying specific code patterns and analyzing natural language descriptions. To evaluate Agentable, we constructed two datasets: AgentSet, consists of 84 real-world Agents, and AgentTest, which contains 78 Agents specifically designed to include various types of defects. Our results show that Agentable achieved an overall accuracy of 88.79% and a recall rate of 91.03%. Furthermore, our analysis reveals the 889 defects of the AgentSet, highlighting the prevalence of these defects.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/2503.13754v2",
+        "id": "http://arxiv.org/abs/2503.13754v2",
+        "title": "From Autonomous Agents to Integrated Systems, A New Paradigm: Orchestrated Distributed Intelligence",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "The rapid evolution of artificial intelligence (AI) has ushered in a new era of integrated systems that merge computational prowess with human decision-making. In this paper, we introduce the concept of Orchestrated Distributed Intelligence (ODI), a novel paradigm that reconceptualizes AI not as isolated autonomous agents, but as cohesive, orchestrated networks that work in tandem with human expertise. ODI leverages advanced orchestration layers, multi-loop feedback mechanisms, and a high cognitive density framework to transform static, record-keeping systems into dynamic, action-oriented environments. Through a comprehensive review of multi-agent system literature, recent technological advances, and practical insights from industry forums, we argue that the future of AI lies in integrating distributed intelligence within human-centric workflows. This approach not only enhances operational efficiency and strategic agility but also addresses challenges related to scalability, transparency, and ethical decision-making. Our work outlines key theoretical implications and presents a practical roadmap for future research and enterprise innovation, aiming to pave the way for responsible and adaptive AI systems that drive sustainable innovation in human organizations.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/2309.05999v2",
+        "id": "http://arxiv.org/abs/2309.05999v2",
+        "title": "Life-inspired Interoceptive Artificial Intelligence for Autonomous and Adaptive Agents",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "Building autonomous -- i.e., choosing goals based on one's needs -- and adaptive -- i.e., surviving in ever-changing environments -- agents has been a holy grail of artificial intelligence (AI). A living organism is a prime example of such an agent, offering important lessons about adaptive autonomy. Here, we focus on interoception, a process of monitoring one's internal environment to keep it within certain bounds, which underwrites the survival of an organism. To develop AI with interoception, we need to factorize the state variables representing internal environments from external environments and adopt life-inspired mathematical properties of internal environment states. This paper offers a new perspective on how interoception can help build autonomous and adaptive agents by integrating the legacy of cybernetics with recent advances in theories of life, reinforcement learning, and neuroscience.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/2504.16939v1",
+        "id": "http://arxiv.org/abs/2504.16939v1",
+        "title": "A Desideratum for Conversational Agents: Capabilities, Challenges, and Future Directions",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "Recent advances in Large Language Models (LLMs) have propelled conversational AI from traditional dialogue systems into sophisticated agents capable of autonomous actions, contextual awareness, and multi-turn interactions with users. Yet, fundamental questions about their capabilities, limitations, and paths forward remain open. This survey paper presents a desideratum for next-generation Conversational Agents - what has been achieved, what challenges persist, and what must be done for more scalable systems that approach human-level intelligence. To that end, we systematically analyze LLM-driven Conversational Agents by organizing their capabilities into three primary dimensions: (i) Reasoning - logical, systematic thinking inspired by human intelligence for decision making, (ii) Monitor - encompassing self-awareness and user interaction monitoring, and (iii) Control - focusing on tool utilization and policy following. Building upon this, we introduce a novel taxonomy by classifying recent work on Conversational Agents around our proposed desideratum. We identify critical research gaps and outline key directions, including realistic evaluations, long-term multi-turn reasoning skills, self-evolution capabilities, collaborative and multi-agent task completion, personalization, and proactivity. This work aims to provide a structured foundation, highlight existing limitations, and offer insights into potential future research directions for Conversational Agents, ultimately advancing progress toward Artificial General Intelligence (AGI). We maintain a curated repository of papers at: https://github.com/emrecanacikgoz/awesome-conversational-agents.",
+        "markdown": null
+      }
+    ]
+  }
+]

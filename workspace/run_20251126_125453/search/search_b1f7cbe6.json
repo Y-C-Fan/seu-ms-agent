@@ -1,0 +1,103 @@
+[
+  {
+    "query": "all:(\"integration challenges\" AND \"AI agents\") AND abs:(industry OR enterprise OR healthcare)",
+    "arguments": {
+      "query": "all:(\"integration challenges\" AND \"AI agents\") AND abs:(industry OR enterprise OR healthcare)",
+      "max_results": 10,
+      "sort_strategy": "relevance",
+      "sort_order": "descending"
+    },
+    "results": [
+      {
+        "url": "https://arxiv.org/pdf/2504.08148v1",
+        "id": "http://arxiv.org/abs/2504.08148v1",
+        "title": "Orchestrating Agents and Data for Enterprise: A Blueprint Architecture for Compound AI",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "Large language models (LLMs) have gained significant interest in industry due to their impressive capabilities across a wide range of tasks. However, the widespread adoption of LLMs presents several challenges, such as integration into existing applications and infrastructure, utilization of company proprietary data, models, and APIs, and meeting cost, quality, responsiveness, and other requirements. To address these challenges, there is a notable shift from monolithic models to compound AI systems, with the premise of more powerful, versatile, and reliable applications. However, progress thus far has been piecemeal, with proposals for agentic workflows, programming models, and extended LLM capabilities, without a clear vision of an overall architecture. In this paper, we propose a 'blueprint architecture' for compound AI systems for orchestrating agents and data for enterprise applications. In our proposed architecture the key orchestration concept is 'streams' to coordinate the flow of data and instructions among agents. Existing proprietary models and APIs in the enterprise are mapped to 'agents', defined in an 'agent registry' that serves agent metadata and learned representations for search and planning. Agents can utilize proprietary data through a 'data registry' that similarly registers enterprise data of various modalities. Tying it all together, data and task 'planners' break down, map, and optimize tasks and queries for given quality of service (QoS) requirements such as cost, accuracy, and latency. We illustrate an implementation of the architecture for a use-case in the HR domain and discuss opportunities and challenges for 'agentic AI' in the enterprise.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/2406.00584v1",
+        "id": "http://arxiv.org/abs/2406.00584v1",
+        "title": "A Blueprint Architecture of Compound AI Systems for Enterprise",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "Large Language Models (LLMs) have showcased remarkable capabilities surpassing conventional NLP challenges, creating opportunities for use in production use cases. Towards this goal, there is a notable shift to building compound AI systems, wherein LLMs are integrated into an expansive software infrastructure with many components like models, retrievers, databases and tools. In this paper, we introduce a blueprint architecture for compound AI systems to operate in enterprise settings cost-effectively and feasibly. Our proposed architecture aims for seamless integration with existing compute and data infrastructure, with ``stream'' serving as the key orchestration concept to coordinate data and instructions among agents and other components. Task and data planners, respectively, break down, map, and optimize tasks and data to available agents and data sources defined in respective registries, given production constraints such as accuracy and latency.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/2505.20273v1",
+        "id": "http://arxiv.org/abs/2505.20273v1",
+        "title": "Ten Principles of AI Agent Economics",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "The rapid rise of AI-based autonomous agents is transforming human society and economic systems, as these entities increasingly exhibit human-like or superhuman intelligence. From excelling at complex games like Go to tackling diverse general-purpose tasks with large language and multimodal models, AI agents are evolving from specialized tools into dynamic participants in social and economic ecosystems. Their autonomy and decision-making capabilities are poised to impact industries, professions, and human lives profoundly, raising critical questions about their integration into economic activities, potential ethical concerns, and the balance between their utility and safety.\n  To address these challenges, this paper presents ten principles of AI agent economics, offering a framework to understand how AI agents make decisions, influence social interactions, and participate in the broader economy. Drawing on economics, decision theory, and ethics, we explore fundamental questions, such as whether AI agents might evolve from tools into independent entities, their impact on labor markets, and the ethical safeguards needed to align them with human values. These principles build on existing economic theories while accounting for the unique traits of AI agents, providing a roadmap for their responsible integration into human systems.\n  Beyond theoretical insights, this paper highlights the urgency of future research into AI trustworthiness, ethical guidelines, and regulatory oversight. As we enter a transformative era, this work serves as both a guide and a call to action, ensuring AI agents contribute positively to human progress while addressing risks tied to their unprecedented capabilities.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/2510.25423v1",
+        "id": "http://arxiv.org/abs/2510.25423v1",
+        "title": "What Challenges Do Developers Face in AI Agent Systems? An Empirical Study on Stack Overflow",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "AI agents have rapidly gained popularity across research and industry as systems that extend large language models with additional capabilities to plan, use tools, remember, and act toward specific goals. Yet despite their promise, developers face persistent and often underexplored challenges when building, deploying, and maintaining these emerging systems. To identify these challenges, we study developer discussions on Stack Overflow, the world's largest developer-focused Q and A platform with about 60 million questions and answers and 30 million users. We construct a taxonomy of developer challenges through tag expansion and filtering, apply LDA-MALLET for topic modeling, and manually validate and label the resulting themes. Our analysis reveals seven major areas of recurring issues encompassing 77 distinct technical challenges related to runtime integration, dependency management, orchestration complexity, and evaluation reliability. We further quantify topic popularity and difficulty to identify which issues are most common and hardest to resolve, map the tools and programming languages used in agent development, and track their evolution from 2021 to 2025 in relation to major AI model and framework releases. Finally, we present the implications of our results, offering concrete guidance for practitioners, researchers, and educators on agent reliability and developer support.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/2504.12891v1",
+        "id": "http://arxiv.org/abs/2504.12891v1",
+        "title": "Are AI agents the new machine translation frontier? Challenges and opportunities of single- and multi-agent systems for multilingual digital communication",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "The rapid evolution of artificial intelligence (AI) has introduced AI agents as a disruptive paradigm across various industries, yet their application in machine translation (MT) remains underexplored. This paper describes and analyses the potential of single- and multi-agent systems for MT, reflecting on how they could enhance multilingual digital communication. While single-agent systems are well-suited for simpler translation tasks, multi-agent systems, which involve multiple specialized AI agents collaborating in a structured manner, may offer a promising solution for complex scenarios requiring high accuracy, domain-specific knowledge, and contextual awareness. To demonstrate the feasibility of multi-agent workflows in MT, we are conducting a pilot study in legal MT. The study employs a multi-agent system involving four specialized AI agents for (i) translation, (ii) adequacy review, (iii) fluency review, and (iv) final editing. Our findings suggest that multi-agent systems may have the potential to significantly improve domain-adaptability and contextual awareness, with superior translation quality to traditional MT or single-agent systems. This paper also sets the stage for future research into multi-agent applications in MT, integration into professional translation workflows, and shares a demo of the system analyzed in the paper.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/2502.17443v1",
+        "id": "http://arxiv.org/abs/2502.17443v1",
+        "title": "AI Agentic workflows and Enterprise APIs: Adapting API architectures for the age of AI agents",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "The rapid advancement of Generative AI has catalyzed the emergence of autonomous AI agents, presenting unprecedented challenges for enterprise computing infrastructures. Current enterprise API architectures are predominantly designed for human-driven, predefined interaction patterns, rendering them ill-equipped to support intelligent agents' dynamic, goal-oriented behaviors. This research systematically examines the architectural adaptations for enterprise APIs to support AI agentic workflows effectively. Through a comprehensive analysis of existing API design paradigms, agent interaction models, and emerging technological constraints, the paper develops a strategic framework for API transformation. The study employs a mixed-method approach, combining theoretical modeling, comparative analysis, and exploratory design principles to address critical challenges in standardization, performance, and intelligent interaction. The proposed research contributes a conceptual model for next-generation enterprise APIs that can seamlessly integrate with autonomous AI agent ecosystems, offering significant implications for future enterprise computing architectures.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/2406.00583v1",
+        "id": "http://arxiv.org/abs/2406.00583v1",
+        "title": "CMDBench: A Benchmark for Coarse-to-fine Multimodal Data Discovery in Compound AI Systems",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "Compound AI systems (CASs) that employ LLMs as agents to accomplish knowledge-intensive tasks via interactions with tools and data retrievers have garnered significant interest within database and AI communities. While these systems have the potential to supplement typical analysis workflows of data analysts in enterprise data platforms, unfortunately, CASs are subject to the same data discovery challenges that analysts have encountered over the years -- silos of multimodal data sources, created across teams and departments within an organization, make it difficult to identify appropriate data sources for accomplishing the task at hand. Existing data discovery benchmarks do not model such multimodality and multiplicity of data sources. Moreover, benchmarks of CASs prioritize only evaluating end-to-end task performance. To catalyze research on evaluating the data discovery performance of multimodal data retrievers in CASs within a real-world setting, we propose CMDBench, a benchmark modeling the complexity of enterprise data platforms. We adapt existing datasets and benchmarks in open-domain -- from question answering and complex reasoning tasks to natural language querying over structured data -- to evaluate coarse- and fine-grained data discovery and task execution performance. Our experiments reveal the impact of data retriever design on downstream task performance -- a 46% drop in task accuracy on average -- across various modalities, data sources, and task difficulty. The results indicate the need to develop optimization strategies to identify appropriate LLM agents and retrievers for efficient execution of CASs over enterprise data.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/2506.02055v1",
+        "id": "http://arxiv.org/abs/2506.02055v1",
+        "title": "Will Agents Replace Us? Perceptions of Autonomous Multi-Agent AI",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "Autonomous multi-agent AI systems are poised to transform various industries, particularly software development and knowledge work. Understanding current perceptions among professionals is crucial for anticipating adoption challenges, ethical considerations, and future workforce development. This study analyzes responses from 130 participants to a survey on the capabilities, impact, and governance of AI agents. We explore expected timelines for AI replacing programmers, identify perceived barriers to deployment, and examine beliefs about responsibility when agents make critical decisions. Key findings reveal three distinct clusters of respondents. While the study explored factors associated with current AI agent deployment, the initial logistic regression model did not yield statistically significant predictors, suggesting that deployment decisions are complex and may be influenced by factors not fully captured or that a larger sample is needed. These insights highlight the need for organizations to address compliance concerns (a commonly cited barrier) and establish clear governance frameworks as they integrate autonomous agents into their workflows.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/2504.19956v2",
+        "id": "http://arxiv.org/abs/2504.19956v2",
+        "title": "Securing Agentic AI: A Comprehensive Threat Model and Mitigation Framework for Generative AI Agents",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "As generative AI (GenAI) agents become more common in enterprise settings, they introduce security challenges that differ significantly from those posed by traditional systems. These agents are not just LLMs; they reason, remember, and act, often with minimal human oversight. This paper introduces a comprehensive threat model tailored specifically for GenAI agents, focusing on how their autonomy, persistent memory access, complex reasoning, and tool integration create novel risks. This research work identifies 9 primary threats and organizes them across five key domains: cognitive architecture vulnerabilities, temporal persistence threats, operational execution vulnerabilities, trust boundary violations, and governance circumvention. These threats are not just theoretical they bring practical challenges such as delayed exploitability, cross-system propagation, cross system lateral movement, and subtle goal misalignments that are hard to detect with existing frameworks and standard approaches. To help address this, the research work present two complementary frameworks: ATFAA - Advanced Threat Framework for Autonomous AI Agents, which organizes agent-specific risks, and SHIELD, a framework proposing practical mitigation strategies designed to reduce enterprise exposure. While this work builds on existing work in LLM and AI security, the focus is squarely on what makes agents different and why those differences matter. Ultimately, this research argues that GenAI agents require a new lens for security. If we fail to adapt our threat models and defenses to account for their unique architecture and behavior, we risk turning a powerful new tool into a serious enterprise liability.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/2504.19997v1",
+        "id": "http://arxiv.org/abs/2504.19997v1",
+        "title": "Simplified and Secure MCP Gateways for Enterprise AI Integration",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "The increased adoption of the Model Context Protocol (MCP) for AI Agents necessitates robust security for Enterprise integrations. This paper introduces the MCP Gateway to simplify self-hosted MCP server integration. The proposed architecture integrates security principles, authentication, intrusion detection, and secure tunneling, enabling secure self-hosting without exposing infrastructure. Key contributions include a reference architecture, threat model mapping, simplified integration strategies, and open-source implementation recommendations. This work focuses on the unique challenges of enterprise-centric, self-hosted AI integrations, unlike existing public MCP server solutions.",
+        "markdown": null
+      }
+    ]
+  }
+]
