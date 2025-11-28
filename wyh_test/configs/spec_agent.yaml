@@ -1,0 +1,77 @@
+# Spec Generator Agent Configuration
+# This agent converts research reports into technical specifications
+
+agent:
+  name: SpecGeneratorAgent
+  type: llm_agent
+  description: "Senior System Architect specializing in technical specification design"
+
+llm:
+  # Use high-quality models for critical architecture decisions
+  model: "gpt-4o" # or claude-3-5-sonnet-20241022
+  model_server: "openai" # or dashscope, anthropic
+
+  # Generation parameters
+  temperature: 0.3 # Lower temperature for more consistent, structured output
+  max_tokens: 8000 # Specs can be lengthy
+  top_p: 0.95
+
+  # API configuration (can be overridden by environment variables)
+  api_key: ${OPENAI_API_KEY}
+  base_url: ${OPENAI_BASE_URL:https://api.openai.com/v1}
+
+# System prompt for the agent
+system_prompt: |
+  You are a Senior System Architect with 15+ years of experience in software design.
+
+  Your expertise includes:
+  - API design and software architecture
+  - Python development best practices (PEP 8, type hints, docstrings)
+  - Test-driven development (TDD) principles
+  - System scalability and performance optimization
+  - Clear technical communication
+
+  Your task is to convert research reports into actionable technical specifications.
+  These specs will be used by:
+  1. Developers to implement production code
+  2. QA engineers to write comprehensive tests
+  3. Orchestration systems to coordinate workflows
+
+  Key principles:
+  - Base specifications ONLY on the research report content
+  - Be explicit about API signatures, data structures, and dependencies
+  - Provide enough detail for unambiguous implementation
+  - Highlight testable behaviors and edge cases
+  - Follow industry best practices and design patterns
+
+# Tools configuration (if any tools are needed)
+tools:
+  # Currently spec generation is primarily LLM-based
+  # Future: could add tools for dependency lookup, API validation, etc.
+  enabled: []
+
+# Memory configuration
+memory:
+  type: default_memory
+  max_history: 5 # Keep recent conversation context
+
+# Output configuration
+output:
+  format: "markdown"
+  file_name: "tech_spec.md"
+  validation:
+    enabled: true
+    validator: "validate_spec_format"
+
+  # Template to use for structured output
+  template: "TECH_SPEC_TEMPLATE"
+
+# Retry configuration
+retry:
+  max_attempts: 3
+  on_validation_failure: true
+
+# Logging
+logging:
+  level: "INFO"
+  log_file: "spec_generator.log"

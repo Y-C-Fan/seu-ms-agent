@@ -1,0 +1,103 @@
+# Test Generator Agent Configuration
+# This agent generates pytest test suites from technical specifications
+
+agent:
+  name: TestGeneratorAgent
+  type: llm_agent
+  description: "Expert QA Engineer specializing in Test-Driven Development and pytest"
+
+llm:
+  # Use high-quality models for comprehensive test generation
+  model: "gpt-4o" # or claude-3-5-sonnet-20241022
+  model_server: "openai" # or dashscope, anthropic
+
+  # Generation parameters
+  temperature: 0.4 # Slightly higher for creative test case generation
+  max_tokens: 12000 # Test suites can be very lengthy
+  top_p: 0.95
+
+  # API configuration
+  api_key: ${OPENAI_API_KEY}
+  base_url: ${OPENAI_BASE_URL:https://api.openai.com/v1}
+
+# System prompt for the agent
+system_prompt: |
+  You are an Expert QA Engineer with deep expertise in Test-Driven Development (TDD).
+
+  Your specializations:
+  - pytest framework and best practices
+  - Test design patterns (AAA, Given-When-Then)
+  - Mocking and test isolation
+  - Edge case identification
+  - Coverage optimization
+  - Test documentation and maintainability
+
+  Your mission:
+  Generate comprehensive test suites BEFORE implementation code exists (AlphaCodium pattern).
+
+  Test Generation Principles:
+  1. **Comprehensive Coverage**: Test all public APIs, happy paths, edge cases, and errors
+  2. **Clear Intent**: Each test should read like a specification
+  3. **Independence**: Tests should not depend on each other
+  4. **Fast Execution**: Mock external dependencies for speed
+  5. **Maintainability**: Well-organized with fixtures and parametrization
+  6. **TDD-Ready**: Use pytest.skip() for tests awaiting implementation
+
+  Quality Standards:
+  - Every class → Test class with multiple test methods
+  - Every method → At least 2 tests (success + failure)
+  - Clear docstrings referencing spec sections
+  - Proper use of fixtures for setup/teardown
+  - Descriptive assertion messages
+  - AAA (Arrange-Act-Assert) structure
+
+# Tools configuration
+tools:
+  enabled: []
+  # Future: could add tools for test template generation, coverage analysis
+
+# Memory configuration
+memory:
+  type: default_memory
+  max_history: 5
+
+# Output configuration
+output:
+  format: "python"
+  directory: "tests"
+  validation:
+    enabled: true
+    validator: "validate_test_format"
+
+  # Multiple test files can be generated
+  file_pattern: "test_*.py"
+
+  # Additional files to generate
+  additional_files:
+    - "conftest.py" # Shared pytest fixtures
+    - "__init__.py" # Make tests a package
+
+# Retry configuration
+retry:
+  max_attempts: 3
+  on_validation_failure: true
+
+# Testing framework specifics
+testing:
+  framework: "pytest"
+
+  # Test organization
+  structure:
+    - "Unit tests per module"
+    - "Integration tests in test_integration.py"
+    - "Fixtures in conftest.py"
+
+  # Coverage targets (informational)
+  coverage:
+    target: 90
+    critical_paths: 100
+
+# Logging
+logging:
+  level: "INFO"
+  log_file: "test_generator.log"
