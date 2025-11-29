@@ -1,0 +1,85 @@
+[
+  {
+    "query": "all:(\"command-line calculator\" OR \"terminal calculator\") AND (design OR architecture)",
+    "arguments": {
+      "query": "all:(\"command-line calculator\" OR \"terminal calculator\") AND (design OR architecture)",
+      "max_results": 8,
+      "sort_strategy": "relevance",
+      "sort_order": "descending"
+    },
+    "results": [
+      {
+        "url": "https://arxiv.org/pdf/2511.19001v1",
+        "id": "http://arxiv.org/abs/2511.19001v1",
+        "title": "Tuning Domain-Based Charge Transfer in Organic Dyes: Impact of Heteroatom Doping in the pi-linker of Carbazole-Based Systems",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "This work presents an innovative computational study of domain-based charge transfer that leverages the localized orbitals of pair Coupled Cluster Doubles (pCCD). This method enables both directional monitoring and quantitative assessment of charge transfer among donor (D), bridge (B), and acceptor (A) moieties. We applied this approach to a series of newly designed carbazole-based prototypical organic dyes, doping the bridge at positions 1, 2, and 3 with nitrogen, oxygen, and sulfur atoms to generate mono-, di-, and tri-doped variants. Our results demonstrate a clear and progressive enhancement in charge transfer as the degree of nitrogen or oxygen doping increases from mono- to di- to tri-doped systems. For mono-doped dyes, the highest forward charge transfer from donor to bridge to acceptor (D$\\xrightarrow{}$B$\\xrightarrow{}$A) occurs when a heteroatom (N or O) is placed in the terminal ring of the bridge, closer to the acceptor. In di-doped dyes, the largest forward charge transfer is observed when heteroatoms occupy both terminal positions, with one atom (N or S) adjacent to the donor and the other (N) near the acceptor. Nitrogen-doped systems consistently outperform their oxygen and sulfur counterparts. Among all variants, the organic dye doped with three nitrogen atoms at the bridge exhibits the most efficient and highest directional donor-to-acceptor charge transfer (42.6\\%), making it the most promising candidate for potential applications in dye-sensitized solar cells. Finally, our calculations predict weak charge separation in all systems, indicating that charge transfer predominantly occurs from the bridge to the acceptor.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/2506.21302v2",
+        "id": "http://arxiv.org/abs/2506.21302v2",
+        "title": "Coordinated Control of Autonomous Vehicles for Traffic Density Reduction at a Signalized Junction: An MPC Approach",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "The effective and safe management of traffic is a key issue due to the rapid advancement of the urban transportation system. Connected autonomous vehicles (CAVs) possess the capability to connect with each other and adjacent infrastructure, presenting novel opportunities for enhancing traffic flow and coordination. This work proposes a dual-mode model predictive control (MPC) architecture that tackles two interrelated issues: mitigating traffic density at signalized junctions and facilitating seamless, cooperative lane changes in high-density traffic conditions. The objective of this work is to facilitate responsive decision-making for CAVs, thereby enhancing the efficiency and safety of urban mobility. Moreover, we ensure recursive feasibility and convergence of the proposed MPC scheme by the integration of an online-calculated maximal control invariant terminal set. Finally, the efficacy of the proposed approach is validated through numerical simulation.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/2511.01560v1",
+        "id": "http://arxiv.org/abs/2511.01560v1",
+        "title": "Current-Gated Orthogonal Superconducting Transistor",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "Nonreciprocal charge transport in superconductors enables rectification but is usually limited to the longitudinal direction. In this work, we show that a direct current bias injected off principal axes in two-dimensional anisotropic superconductors converts anisotropy into transverse nonreciprocity, enabling supercurrent diode effect measurement. This is demonstrated within both a Ginzburg-Landau framework and self-consistent mean-field calculations. When the control bias exceeds its critical value, the transverse dissipationless currents can only flow unidirectionally. This mechanism motivates the design of a multi-terminal current-gated orthogonal superconducting transistor (CGOST) and yields simple, bias direction angle-dependent design rules for device optimization. As direct applications, we propose a tunable supercurrent range controller and a half-wave rectifier based on the CGOST. Our findings open new avenues for developing nonreciprocal superconducting electronic devices.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/2511.01484v1",
+        "id": "http://arxiv.org/abs/2511.01484v1",
+        "title": "Enhancing Non-Terrestrial Network Performance with Free Space Optical Links and Intelligent Reflecting Surfaces",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "The integration of non-terrestrial networks (NTNs), which include high altitude platform (HAP) stations and intelligent reflecting surfaces (IRS) into communication infrastructures has become a crucial area of research to address the increasing requirements for connectivity and performance in the post-5G era. This paper presents a comprehensive performance study of a new NTN architecture, which enables communication from the optical ground station (OGS) to end users through the utilization of HAP and terrestrial IRS nodes. In this configuration, the HAP acts as an amplify-and-forward (AF) relay terminal between the free-space optical (FSO) link and the RF links.\n  Specifically, the RF links are modeled using the Shadowed Rician and the generalized Nakagami-$m$ models, where the FSO link is characterized by the Gamma-Gamma distribution with generalized pointing errors. The FSO system operates under either intensity modulation with direct detection or heterodyne detection. Using the mixture Gamma model, we approximate the non-centered chi-square distribution that describes the total fading of the RF link, and we assess the performance of the end-to-end system by analyzing the ergodic capacity, the average bit-error rate (BER), and the outage probability, calculated using the bivariate Fox-H function. We also provide simple asymptotic expressions for the average BER and the outage probability at high signal-to-noise ratio (SNR). Finally, the proposed analysis is validated with numerical and Monte-Carlo simulation results, showing an exact match.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/2510.17412v1",
+        "id": "http://arxiv.org/abs/2510.17412v1",
+        "title": "Geometry-Driven Charge and Spin Transport in $\\beta12$ Borophene Quantum Dots",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "Theoretical research has been conducted to study how geometry affects charge and spin transport in $β\\mathrm{12}$ borophene quantum dots, which are confined systems. The study examined two distinct central regions, which included a circular disc and a regular hexagonal area that connected to semi-infinite zigzag and armchair borophene nanoribbon leads. The system was described by a five-band tight-binding Hamiltonian parameterized using first-principles data, and the transport properties were calculated within the non-equilibrium Green's function framework. Spin resolved transmissions and spin polarization were computed for a range of lead widths and proximity-induced exchange field strengths. The analysis revealed distinct transport characteristics determined by geometry and edge configuration: armchair-connected structures exhibited broader and more stable fully spin-polarized windows compared with zigzag-connected counterparts. Furthermore, critical lead-width thresholds ($\\approx 1.01$ nm for zigzag and $\\approx 0.87$ nm for armchair) and a moderate exchange field above which complete spin filtering occurs were identified. The results highlight the strong influence of edge termination and confinement geometry on transport properties and provide useful design guidelines for developing borophene-based nanoscale spintronic devices.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/2507.20252v3",
+        "id": "http://arxiv.org/abs/2507.20252v3",
+        "title": "Post-Completion Learning for Language Models",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "Current language model training paradigms typically terminate learning upon reaching the end-of-sequence (<eos>) token, overlooking the potential learning opportunities in the post-completion space. We propose Post-Completion Learning (PCL), a novel training framework that systematically utilizes the sequence space after model output completion, to enhance both the reasoning and self-evaluation abilities. PCL enables models to continue generating self-assessments and reward predictions during training, while maintaining efficient inference by stopping at the completion point.\n  To fully utilize this post-completion space, we design a white-box reinforcement learning method: let the model evaluate the output content according to the reward rules, then calculate and align the score with the reward functions for supervision. We implement dual-track SFT to optimize both reasoning and evaluation capabilities, and mixed it with RL training to achieve multi-objective hybrid optimization.\n  Experimental results on different datasets and models demonstrate consistent improvements over traditional SFT and RL methods. Our method provides a new technical path for language model training that enhances output quality while preserving deployment efficiency.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/2506.04338v2",
+        "id": "http://arxiv.org/abs/2506.04338v2",
+        "title": "Magnetic field-free braiding and nontrivial fusion of Majorana bound states in high-temperature planar Josephson junctions",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "Demonstration of non-Abelian statistics of Majorana bound states (MBS) is crucial for the realization of fault-tolerant topological quantum computation. Two-dimensional platforms such as planar Josephson junctions require an in-plane magnetic field to generate a pair of MBS at its non-superconducting channel ends; however, the fixed direction of the in-plane magnetic field puts a constraint on the realization of a multi-terminal topological planar junction, and hence its ability to physically move multiple MBS -- which is necessary for performing the fusion and braiding operations. Here we show that in a planar Josephson junction coupled to a skyrmion crystal, which can generate multiple pairs of MBS in the absence of any external magnetic field, the non-trivial fusion and braiding operations can be performed. Our numerical calculations, designed for realistic two-dimensional quantum systems, certify the feasibility of experimental realization of the proposed device schemes. We find that both $s$-wave and $d$-wave superconducting leads can generate the MBS; indicating that the MBS movement operations can be performed at higher temperatures using $d$-wave superconducting leads. Our results establish that the skyrmion crystal-coupled planar Josephson junction is a viable platform for the generation and controlled movement of the MBS.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/2506.11851v1",
+        "id": "http://arxiv.org/abs/2506.11851v1",
+        "title": "Interference in Spectrum-Sharing Integrated Terrestrial and Satellite Networks: Modeling, Approximation, and Robust Transmit Beamforming",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "This paper investigates robust transmit (TX) beamforming from the satellite to user terminals (UTs), based on statistical channel state information (CSI). The proposed design specifically targets the mitigation of satellite-to-terrestrial interference in spectrum-sharing integrated terrestrial and satellite networks. By leveraging the distribution information of terrestrial UTs, we first establish an interference model from the satellite to terrestrial systems without shared CSI. Based on this, robust TX beamforming schemes are developed under both the interference threshold and the power budget. Two optimization criteria are considered: satellite weighted sum rate maximization and mean square error minimization. The former achieves a superior achievable rate performance through an iterative optimization framework, whereas the latter enables a low-complexity closed-form solution at the expense of reduced rate, with interference constraints satisfied via a bisection method. To avoid complex integral calculations and the dependence on user distribution information in inter-system interference evaluations, we propose a terrestrial base station position-aided approximation method, and the approximation errors are subsequently analyzed. Numerical simulations validate the effectiveness of our proposed schemes.",
+        "markdown": null
+      }
+    ]
+  }
+]

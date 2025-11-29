@@ -8,8 +8,8 @@ agent:
 
 llm:
   # Use high-quality models for comprehensive test generation
-  model: "gpt-4o" # or claude-3-5-sonnet-20241022
-  model_server: "openai" # or dashscope, anthropic
+  model: "qwen-max" # DashScope model
+  model_server: "dashscope" # Using Alibaba Cloud DashScope
 
   # Generation parameters
   temperature: 0.4 # Slightly higher for creative test case generation
@@ -18,7 +18,7 @@ llm:
 
   # API configuration
   api_key: ${OPENAI_API_KEY}
-  base_url: ${OPENAI_BASE_URL:https://api.openai.com/v1}
+  openai_base_url: ${OPENAI_BASE_URL:https://dashscope.aliyuncs.com/compatible-mode/v1}
 
 # System prompt for the agent
 system_prompt: |

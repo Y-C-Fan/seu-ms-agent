@@ -1,0 +1,76 @@
+[
+  {
+    "query": "all:(\"calculator implementation\" AND (\"extensibility\" OR \"modular design\")) ANDNOT (GUI OR \"mobile app\")",
+    "arguments": {
+      "query": "all:(\"calculator implementation\" AND (\"extensibility\" OR \"modular design\")) ANDNOT (GUI OR \"mobile app\")",
+      "max_results": 7,
+      "sort_strategy": "relevance",
+      "sort_order": "descending"
+    },
+    "results": [
+      {
+        "url": "https://arxiv.org/pdf/2209.05934v2",
+        "id": "http://arxiv.org/abs/2209.05934v2",
+        "title": "Modular implementation of the linear and cubic-scaling orbital minimization methods in electronic structure codes using atomic orbitals",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "We present a code modularization approach to design efficient and massively parallel cubic and linear-scaling solvers for electronic structure calculations using atomic orbitals. The modular implementation of the orbital minimization method, in which linear algebra and parallelization issues are handled via external libraries, is demonstrated in the SIESTA code. The DBCSR and ScaLAPACK libraries are used for algebraic operations with sparse and dense matrices, respectively. The MatrixSwitch and libOMM libraries, recently developed within the Electronic Structure Library, facilitate switching between different matrix formats and implement the energy minimization. We show results comparing the performance of several cubic-scaling algorithms, and also demonstrate the parallel performance of the linear-scaling solvers, and their supremacy over the cubic-scaling solvers for insulating systems with sizes of several hundreds of atoms.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/1707.02202v2",
+        "id": "http://arxiv.org/abs/1707.02202v2",
+        "title": "Pandeia: A Multi-mission Exposure Time Calculator for JWST and WFIRST",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "Pandeia is the exposure time calculator (ETC) system developed for the James Webb Space Telescope (JWST) that will be used for creating JWST proposals. It includes a simulation-hybrid Python engine that calculates the two-dimensional pixel-by-pixel signal and noise properties of the JWST instruments. This allows for appropriate handling of realistic point spread functions, MULTIACCUM detector readouts, correlated detector readnoise, and multiple photometric and spectral extraction strategies. Pandeia includes support for all the JWST observing modes, including imaging, slitted/slitless spectroscopy, integral field spectroscopy, and coronagraphy. Its highly modular, data-driven design makes it easily adaptable to other observatories. An implementation for use with WFIRST is also available.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/1801.01121v2",
+        "id": "http://arxiv.org/abs/1801.01121v2",
+        "title": "Multiplication with Fourier Optics Simulating 16-bit Modular Multiplication",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "This paper will describe a simulator developed by the authors to explore the design of Fourier transform based multiplication using optics. Then it will demonstrate an application to the problem of constructing an all-optical modular multiplication circuit. That circuit implements a novel approximate version of the Montgomery multiplication algorithm that enables the calculation to be performed entirely in the analog domain. The results will be used to corroborate the feasibility of scaling the design up to 16-bits without the need for analog to digital conversions at intermediate steps.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/2402.00051v1",
+        "id": "http://arxiv.org/abs/2402.00051v1",
+        "title": "Design and Implementation of Hardware Accelerators for Neural Processing Applications",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "Primary motivation for this work was the need to implement hardware accelerators for a newly proposed ANN structure called Auto Resonance Network (ARN) for robotic motion planning. ARN is an approximating feed-forward hierarchical and explainable network. It can be used in various AI applications but the application base was small. Therefore, the objective of the research was twofold: to develop a new application using ARN and to implement a hardware accelerator for ARN. As per the suggestions given by the Doctoral Committee, an image recognition system using ARN has been implemented. An accuracy of around 94% was achieved with only 2 layers of ARN. The network also required a small training data set of about 500 images. Publicly available MNIST dataset was used for this experiment. All the coding was done in Python. Massive parallelism seen in ANNs presents several challenges to CPU design. For a given functionality, e.g., multiplication, several copies of serial modules can be realized within the same area as a parallel module. Advantage of using serial modules compared to parallel modules under area constraints has been discussed. One of the module often useful in ANNs is a multi-operand addition. One problem in its implementation is that the estimation of carry bits when the number of operands changes. A theorem to calculate exact number of carry bits required for a multi-operand addition has been presented in the thesis which alleviates this problem. The main advantage of the modular approach to multi-operand addition is the possibility of pipelined addition with low reconfiguration overhead. This results in overall increase in throughput for large number of additions, typically seen in several DNN configurations.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/1709.01142v1",
+        "id": "http://arxiv.org/abs/1709.01142v1",
+        "title": "Implementation and Evaluation of a Framework to calculate Impact Measures for Wikipedia Authors",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "Wikipedia, an open collaborative website, can be edited by anyone, even anonymously, thus becoming victim to ill-intentioned changes. Therefore, ranking Wikipedia authors by calculating impact measures based on the edit history can help to identify reputational users or harmful activity such as vandalism \\cite{Adler:2008:MAC:1822258.1822279}. However, processing millions of edits on one system can take a long time. The author implements an open source framework to calculate such rankings in a distributed way (MapReduce) and evaluates its performance on various sized datasets. A reimplementation of the contribution measures by \\citeauthor{Adler:2008:MAC:1822258.1822279} demonstrates its extensibility and usability, as well as problems of handling huge datasets and their possible resolutions. The results put different performance optimizations into perspective and show that horizontal scaling can decrease the total processing time.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/2412.19826v1",
+        "id": "http://arxiv.org/abs/2412.19826v1",
+        "title": "Modular probabilistic programming with algebraic effects (MSc Thesis 2019)",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "Probabilistic programming languages, which exist in abundance, are languages that allow users to calculate probability distributions defined by probabilistic programs, by using inference algorithms. However, the underlying inference algorithms are not implemented in a modular fashion, though, the algorithms are presented as a composition of other inference components. This discordance between the theory and the practice of Bayesian machine learning, means that reasoning about the correctness of probabilistic programs is more difficult, and composing inference algorithms together in code may not necessarily produce correct compound inference algorithms. In this dissertation, I create a modular probabilistic programming library, already a nice property as its not a standalone language, called Koka Bayes, that is based off of both the modular design of Monad Bayes -- a probabilistic programming library developed in Haskell -- and its semantic validation. The library is embedded in a recently created programming language, Koka, that supports algebraic effect handlers and expressive effect types -- novel programming abstractions that support modular programming. Effects are generalizations of computational side-effects, and it turns out that fundamental operations in probabilistic programming such as probabilistic choice and conditioning are instances of effects.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/2005.06651v1",
+        "id": "http://arxiv.org/abs/2005.06651v1",
+        "title": "The Athena++ Adaptive Mesh Refinement Framework: Design and Magnetohydrodynamic Solvers",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "The design and implementation of a new framework for adaptive mesh refinement (AMR) calculations is described. It is intended primarily for applications in astrophysical fluid dynamics, but its flexible and modular design enables its use for a wide variety of physics. The framework works with both uniform and nonuniform grids in Cartesian and curvilinear coordinate systems. It adopts a dynamic execution model based on a simple design called a \"task list\" that improves parallel performance by overlapping communication and computation, simplifies the inclusion of a diverse range of physics, and even enables multiphysics models involving different physics in different regions of the calculation. We describe physics modules implemented in this framework for both non-relativistic and relativistic magnetohydrodynamics (MHD). These modules adopt mature and robust algorithms originally developed for the Athena MHD code and incorporate new extensions: support for curvilinear coordinates, higher-order time integrators, more realistic physics such as a general equation of state, and diffusion terms that can be integrated with super-time-stepping algorithms. The modules show excellent performance and scaling, with well over 80% parallel efficiency on over half a million threads. The source code has been made publicly available.",
+        "markdown": null
+      }
+    ]
+  }
+]

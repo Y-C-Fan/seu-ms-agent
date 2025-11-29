@@ -1,0 +1,12 @@
+[
+  {
+    "query": "abs:(\"real-time expression evaluation\" AND \"incremental parsing\") AND (\"embedded system\" OR \"resource-constrained\")",
+    "arguments": {
+      "query": "abs:(\"real-time expression evaluation\" AND \"incremental parsing\") AND (\"embedded system\" OR \"resource-constrained\")",
+      "max_results": 6,
+      "sort_strategy": "relevance",
+      "sort_order": "descending"
+    },
+    "results": []
+  }
+]

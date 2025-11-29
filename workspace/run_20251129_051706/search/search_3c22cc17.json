@@ -1,0 +1,31 @@
+[
+  {
+    "query": "(all:(\"AutoOEP\" AND (\"proctoring\" OR \"exam monitoring\")) OR all:(\"GeneralizIT\" AND (\"Generalizability Theory\" OR \"reliability analysis\")))",
+    "arguments": {
+      "query": "(all:(\"AutoOEP\" AND (\"proctoring\" OR \"exam monitoring\")) OR all:(\"GeneralizIT\" AND (\"Generalizability Theory\" OR \"reliability analysis\")))",
+      "max_results": 10,
+      "sort_strategy": "relevance",
+      "sort_order": "descending"
+    },
+    "results": [
+      {
+        "url": "https://arxiv.org/pdf/2411.17880v2",
+        "id": "http://arxiv.org/abs/2411.17880v2",
+        "title": "GeneralizIT: A Python Solution for Generalizability Theory Computations",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "GeneralizIT is a Python package designed to streamline the application of Generalizability Theory (G-Theory) in research and practice. G-Theory extends classical test theory by estimating multiple sources of error variance, providing a more flexible and detailed approach to reliability assessment. Despite its advantages, G-Theory's complexity can present a significant barrier to researchers. GeneralizIT addresses this challenge by offering an intuitive, user-friendly mechanism to calculate variance components, generalizability coefficients E*rho^2 and dependability Phi and to perform decision (D) studies. D-Studies allow users to make decisions about potential study designs and target improvements in the reliability of certain facets. The package supports both fully crossed and nested designs, enabling users to perform in-depth reliability analysis with minimal coding effort. With built-in visualization tools and detailed reporting functions, GeneralizIT empowers researchers across disciplines, such as education, psychology, healthcare, and the social sciences, to harness the power of G-Theory for robust evidence-based insights. Whether applied to small or large datasets, GeneralizIT offers an accessible and computationally efficient solution to improve measurement reliability in complex data environments.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/2509.10887v2",
+        "id": "http://arxiv.org/abs/2509.10887v2",
+        "title": "AutoOEP -- A Multi-modal Framework for Online Exam Proctoring",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "The burgeoning of online education has created an urgent need for robust and scalable systems to ensure academic integrity during remote examinations. Traditional human proctoring is often not feasible at scale, while existing automated solutions can be intrusive or fail to detect a wide range of cheating behaviors. This paper introduces AutoOEP (Automated Online Exam Proctoring), a comprehensive, multi-modal framework that leverages computer vision and machine learning to provide effective, automated proctoring. The system utilizes a dual-camera setup to capture both a frontal view of the examinee and a side view of the workspace, minimizing blind spots. Our approach integrates several parallel analyses: the Face Module performs continuous identity verification using ArcFace, along with head pose estimation, gaze tracking, and mouth movement analysis to detect suspicious cues. Concurrently, the Hand Module employs a fine-tuned YOLOv11 model for detecting prohibited items (e.g., mobile phones, notes) and tracks hand proximity to these objects. Features from these modules are aggregated and fed into a Long Short-Term Memory (LSTM) network that analyzes temporal patterns to calculate a real-time cheating probability score. We evaluate AutoOEP on a custom-collected dataset simulating diverse exam conditions. Our system achieves an accuracy of 90.7% in classifying suspicious activities. The object detection component obtains a mean Average Precision (mAP@.5) of 0.57 for prohibited items, and the entire framework processes video streams at approximately 2.4 frames per second without a GPU. The results demonstrate that AutoOEP is an effective and resource-efficient solution for automated proctoring, significantly reducing the need for human intervention and enhancing the integrity of online assessments. The code is public and can be accessed at https://github.com/05kashyap/AutoOEP.",
+        "markdown": null
+      }
+    ]
+  }
+]

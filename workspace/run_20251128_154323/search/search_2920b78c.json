@@ -1,0 +1,22 @@
+[
+  {
+    "query": "all:(\"educational programming\" AND \"calculator project\" AND GitHub) AND (\"commit history\" OR \"anonymized dataset\" OR \"code repository\") ANDNOT abs:(\"graphing\" OR \"scientific\")",
+    "arguments": {
+      "query": "all:(\"educational programming\" AND \"calculator project\" AND GitHub) AND (\"commit history\" OR \"anonymized dataset\" OR \"code repository\") ANDNOT abs:(\"graphing\" OR \"scientific\")",
+      "max_results": 10,
+      "sort_strategy": "relevance",
+      "sort_order": "descending"
+    },
+    "results": [
+      {
+        "url": "https://arxiv.org/pdf/2008.11262v1",
+        "id": "http://arxiv.org/abs/2008.11262v1",
+        "title": "Student Teamwork on Programming Projects: What can GitHub logs show us?",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "Teamwork, often mediated by version control systems such as Git and Apache Subversion (SVN), is central to professional programming. As a consequence, many colleges are incorporating both collaboration and online development environments into their curricula even in introductory courses. In this research, we collected GitHub logs from two programming projects in two offerings of a CS2 Java programming course for computer science majors. Students worked in pairs for both projects (one optional, the other mandatory) in each year. We used the students' GitHub history to classify the student teams into three groups, collaborative, cooperative, or solo-submit, based on the division of labor. We then calculated different metrics for students' teamwork including the total number and the average number of commits in different parts of the projects and used these metrics to predict the students' teamwork style. Our findings show that we can identify the students' teamwork style automatically from their submission logs. This work helps us to better understand novices' habits while using version control systems. These habits can identify the harmful working styles among them and might lead to the development of automatic scaffolds for teamwork and peer support in the future.",
+        "markdown": null
+      }
+    ]
+  }
+]

@@ -1,0 +1,31 @@
+[
+  {
+    "query": "all:(\"educational programming\" AND \"calculator project\") ANDNOT abs:(\"graphing\" OR \"scientific\")",
+    "arguments": {
+      "query": "all:(\"educational programming\" AND \"calculator project\") ANDNOT abs:(\"graphing\" OR \"scientific\")",
+      "max_results": 10,
+      "sort_strategy": "relevance",
+      "sort_order": "descending"
+    },
+    "results": [
+      {
+        "url": "https://arxiv.org/pdf/2008.11262v1",
+        "id": "http://arxiv.org/abs/2008.11262v1",
+        "title": "Student Teamwork on Programming Projects: What can GitHub logs show us?",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "Teamwork, often mediated by version control systems such as Git and Apache Subversion (SVN), is central to professional programming. As a consequence, many colleges are incorporating both collaboration and online development environments into their curricula even in introductory courses. In this research, we collected GitHub logs from two programming projects in two offerings of a CS2 Java programming course for computer science majors. Students worked in pairs for both projects (one optional, the other mandatory) in each year. We used the students' GitHub history to classify the student teams into three groups, collaborative, cooperative, or solo-submit, based on the division of labor. We then calculated different metrics for students' teamwork including the total number and the average number of commits in different parts of the projects and used these metrics to predict the students' teamwork style. Our findings show that we can identify the students' teamwork style automatically from their submission logs. This work helps us to better understand novices' habits while using version control systems. These habits can identify the harmful working styles among them and might lead to the development of automatic scaffolds for teamwork and peer support in the future.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/1912.05973v1",
+        "id": "http://arxiv.org/abs/1912.05973v1",
+        "title": "Wie brachte die Saturn V-Rakete die Astronauten von Apollo 11 zum Mond?",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "This activity was created within the framework of the \"Space for Education\" project, which ams at experiencing physical principles on the basis of topics related to space travel. This teaching unit follows the material \"How do astronauts fly to the ISS with a rocket?\", but is aimed at higher grades because of the mathematical skills required. Based on the rocket equation, the students calculate various parameters of the three-stage moon rocket Saturn V under the influence of gravity. In order to be able to perform the calculation analytically, some simplifying assumptions are made. For motivation videos and texts about the Apollo program are provided. Additional materials at: https://www.haus-der-astronomie.de/raum-fuer-bildung\n  -----\n  Diese Aktivität wurde im Rahmen des Projekts \"Raum für Bildung\" erstellt, welches physikalische Prinzipien anhand der Raumfahrt erlebbar macht. Diese Lehreinheit schließt sich an das Material \"Wie fliegen Astronauten mit einer Rakete zur ISS?\" an, richtet sich aber wegen des benötigten mathematischen Rüstzeugs an höhere Klassenstufen. Die Schülerinnen und Schüler berechnen ausgehend von der Raketengleichung verschiedene Parameter der dreistufigen Mondrakete Saturn V unter dem Einfluss der Schwerkraft. Um die Berechnung analytisch durchführen zu können, werden einige vereinfachende Annahmen gemacht. Zur Motivation werden Videos und Texte zum Apollo-Programm zur Verfügung gestellt. Weitere Materialien unter: https://www.haus-der-astronomie.de/raum-fuer-bildung",
+        "markdown": null
+      }
+    ]
+  }
+]

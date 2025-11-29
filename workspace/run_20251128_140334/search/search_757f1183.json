@@ -1,0 +1,12 @@
+[
+  {
+    "query": "all:(\"Quantinuum QMCI\" AND (\"architectural pattern\" OR \"software extensibility\") AND (\"beyond six modules\" OR \"component interaction\"))",
+    "arguments": {
+      "query": "all:(\"Quantinuum QMCI\" AND (\"architectural pattern\" OR \"software extensibility\") AND (\"beyond six modules\" OR \"component interaction\"))",
+      "max_results": 10,
+      "sort_strategy": "relevance",
+      "sort_order": "descending"
+    },
+    "results": []
+  }
+]

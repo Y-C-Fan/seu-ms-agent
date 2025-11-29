@@ -1,0 +1,12 @@
+[
+  {
+    "query": "all:(\"RevOrder\" AND (\"edge AI\" OR \"hardware accelerator\")) AND (benchmark OR latency OR throughput)",
+    "arguments": {
+      "query": "all:(\"RevOrder\" AND (\"edge AI\" OR \"hardware accelerator\")) AND (benchmark OR latency OR throughput)",
+      "max_results": 10,
+      "sort_strategy": "relevance",
+      "sort_order": "descending"
+    },
+    "results": []
+  }
+]

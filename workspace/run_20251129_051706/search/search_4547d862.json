@@ -1,0 +1,12 @@
+[
+  {
+    "query": "all:(\"MatrixSwitch\" AND (\"API contract\" OR \"interface specification\")) AND (SIESTA OR DBCSR OR ScaLAPACK)",
+    "arguments": {
+      "query": "all:(\"MatrixSwitch\" AND (\"API contract\" OR \"interface specification\")) AND (SIESTA OR DBCSR OR ScaLAPACK)",
+      "max_results": 10,
+      "sort_strategy": "relevance",
+      "sort_order": "descending"
+    },
+    "results": []
+  }
+]

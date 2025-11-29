@@ -1,0 +1,103 @@
+[
+  {
+    "query": "all:(\"YOLOv11\" AND (\"object detection\" OR \"neural network\")) ANDNOT ti:survey",
+    "arguments": {
+      "query": "all:(\"YOLOv11\" AND (\"object detection\" OR \"neural network\")) ANDNOT ti:survey",
+      "max_results": 10,
+      "sort_strategy": "relevance",
+      "sort_order": "descending"
+    },
+    "results": [
+      {
+        "url": "https://arxiv.org/pdf/2511.18699v1",
+        "id": "http://arxiv.org/abs/2511.18699v1",
+        "title": "Dendritic Convolution for Noise Image Recognition",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "In real-world scenarios of image recognition, there exists substantial noise interference. Existing works primarily focus on methods such as adjusting networks or training strategies to address noisy image recognition, and the anti-noise performance has reached a bottleneck. However, little is known about the exploration of anti-interference solutions from a neuronal perspective.This paper proposes an anti-noise neuronal convolution. This convolution mimics the dendritic structure of neurons, integrates the neighborhood interaction computation logic of dendrites into the underlying design of convolutional operations, and simulates the XOR logic preprocessing function of biological dendrites through nonlinear interactions between input features, thereby fundamentally reconstructing the mathematical paradigm of feature extraction. Unlike traditional convolution where noise directly interferes with feature extraction and exerts a significant impact, DDC mitigates the influence of noise by focusing on the interaction of neighborhood information. Experimental results demonstrate that in image classification tasks (using YOLOv11-cls, VGG16, and EfficientNet-B0) and object detection tasks (using YOLOv11, YOLOv8, and YOLOv5), after replacing traditional convolution with the dendritic convolution, the accuracy of the EfficientNet-B0 model on noisy datasets is relatively improved by 11.23%, and the mean Average Precision (mAP) of YOLOv8 is increased by 19.80%. The consistency between the computation method of this convolution and the dendrites of biological neurons enables it to perform significantly better than traditional convolution in complex noisy environments.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/2504.19347v2",
+        "id": "http://arxiv.org/abs/2504.19347v2",
+        "title": "Improving Small Drone Detection Through Multi-Scale Processing and Data Augmentation",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "Detecting small drones, often indistinguishable from birds, is crucial for modern surveillance. This work introduces a drone detection methodology built upon the medium-sized YOLOv11 object detection model. To enhance its performance on small targets, we implemented a multi-scale approach in which the input image is processed both as a whole and in segmented parts, with subsequent prediction aggregation. We also utilized a copy-paste data augmentation technique to enrich the training dataset with diverse drone and bird examples. Finally, we implemented a post-processing technique that leverages frame-to-frame consistency to mitigate missed detections. The proposed approach attained first place in the 8th WOSDETC Drone-vs-Bird Detection Grand Challenge, held at the 2025 International Joint Conference on Neural Networks (IJCNN), showcasing its capability to detect drones in complex environments effectively.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/2511.10940v1",
+        "id": "http://arxiv.org/abs/2511.10940v1",
+        "title": "Facial Expression Recognition with YOLOv11 and YOLOv12: A Comparative Study",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "Facial Expression Recognition remains a challenging task, especially in unconstrained, real-world environments. This study investigates the performance of two lightweight models, YOLOv11n and YOLOv12n, which are the nano variants of the latest official YOLO series, within a unified detection and classification framework for FER. Two benchmark classification datasets, FER2013 and KDEF, are converted into object detection format and model performance is evaluated using mAP 0.5, precision, recall, and confusion matrices. Results show that YOLOv12n achieves the highest overall performance on the clean KDEF dataset with a mAP 0.5 of 95.6, and also outperforms YOLOv11n on the FER2013 dataset in terms of mAP 63.8, reflecting stronger sensitivity to varied expressions. In contrast, YOLOv11n demonstrates higher precision 65.2 on FER2013, indicating fewer false positives and better reliability in noisy, real-world conditions. On FER2013, both models show more confusion between visually similar expressions, while clearer class separation is observed on the cleaner KDEF dataset. These findings underscore the trade-off between sensitivity and precision, illustrating how lightweight YOLO models can effectively balance performance and efficiency. The results demonstrate adaptability across both controlled and real-world conditions, establishing these models as strong candidates for real-time, resource-constrained emotion-aware AI applications.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/2511.10905v1",
+        "id": "http://arxiv.org/abs/2511.10905v1",
+        "title": "YOLO-Drone: An Efficient Object Detection Approach Using the GhostHead Network for Drone Images",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "Object detection using images or videos captured by drones is a promising technology with significant potential across various industries. However, a major challenge is that drone images are typically taken from high altitudes, making object identification difficult. This paper proposes an effective solution to address this issue. The base model used in the experiments is YOLOv11, the latest object detection model, with a specific implementation based on YOLOv11n. The experimental data were sourced from the widely used and reliable VisDrone dataset, a standard benchmark in drone-based object detection. This paper introduces an enhancement to the Head network of the YOLOv11 algorithm, called the GhostHead Network. The model incorporating this improvement is named YOLO-Drone. Experimental results demonstrate that YOLO-Drone achieves significant improvements in key detection accuracy metrics, including Precision, Recall, F1-Score, and mAP (0.5), compared to the original YOLOv11. Specifically, the proposed model recorded a 0.4% increase in Precision, a 0.6% increase in Recall, a 0.5% increase in F1-Score, and a 0.5% increase in mAP (0.5). Additionally, the Inference Speed metric, which measures image processing speed, also showed a notable improvement. These results indicate that YOLO-Drone is a high-performance model with enhanced accuracy and speed compared to YOLOv11. To further validate its reliability, comparative experiments were conducted against other high-performance object detection models, including YOLOv8, YOLOv9, and YOLOv10. The results confirmed that the proposed model outperformed YOLOv8 by 0.1% in mAP (0.5) and surpassed YOLOv9 and YOLOv10 by 0.3% and 0.6%, respectively.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/2510.27224v1",
+        "id": "http://arxiv.org/abs/2510.27224v1",
+        "title": "Mask-to-Height: A YOLOv11-Based Architecture for Joint Building Instance Segmentation and Height Classification from Satellite Imagery",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "Accurate building instance segmentation and height classification are critical for urban planning, 3D city modeling, and infrastructure monitoring. This paper presents a detailed analysis of YOLOv11, the recent advancement in the YOLO series of deep learning models, focusing on its application to joint building extraction and discrete height classification from satellite imagery. YOLOv11 builds on the strengths of earlier YOLO models by introducing a more efficient architecture that better combines features at different scales, improves object localization accuracy, and enhances performance in complex urban scenes. Using the DFC2023 Track 2 dataset -- which includes over 125,000 annotated buildings across 12 cities -- we evaluate YOLOv11's performance using metrics such as precision, recall, F1 score, and mean average precision (mAP). Our findings demonstrate that YOLOv11 achieves strong instance segmentation performance with 60.4\\% mAP@50 and 38.3\\% mAP@50--95 while maintaining robust classification accuracy across five predefined height tiers. The model excels in handling occlusions, complex building shapes, and class imbalance, particularly for rare high-rise structures. Comparative analysis confirms that YOLOv11 outperforms earlier multitask frameworks in both detection accuracy and inference speed, making it well-suited for real-time, large-scale urban mapping. This research highlights YOLOv11's potential to advance semantic urban reconstruction through streamlined categorical height modeling, offering actionable insights for future developments in remote sensing and geospatial intelligence.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/2508.11696v2",
+        "id": "http://arxiv.org/abs/2508.11696v2",
+        "title": "A Deep Learning-Based CCTV System for Automatic Smoking Detection in Fire Exit Zones",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "A deep learning real-time smoking detection system for CCTV surveillance of fire exit areas is proposed due to critical safety requirements. The dataset contains 8,124 images from 20 different scenarios along with 2,708 raw samples demonstrating low-light areas. We evaluated three advanced object detection models: YOLOv8, YOLOv11, and YOLOv12, followed by development of a custom model derived from YOLOv8 with added structures for challenging surveillance contexts. The proposed model outperformed the others, achieving a recall of 78.90 percent and mAP at 50 of 83.70 percent, delivering optimal object detection across varied environments. Performance evaluation on multiple edge devices using multithreaded operations showed the Jetson Xavier NX processed data at 52 to 97 milliseconds per inference, establishing its suitability for time-sensitive operations. This system offers a robust and adaptable platform for monitoring public safety and enabling automatic regulatory compliance.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/2510.21811v1",
+        "id": "http://arxiv.org/abs/2510.21811v1",
+        "title": "Comparative Analysis of Object Detection Algorithms for Surface Defect Detection",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "This article compares the performance of six prominent object detection algorithms, YOLOv11, RetinaNet, Fast R-CNN, YOLOv8, RT-DETR, and DETR, on the NEU-DET surface defect detection dataset, comprising images representing various metal surface defects, a crucial application in industrial quality control. Each model's performance was assessed regarding detection accuracy, speed, and robustness across different defect types such as scratches, inclusions, and rolled-in scales. YOLOv11, a state-of-the-art real-time object detection algorithm, demonstrated superior performance compared to the other methods, achieving a remarkable 70% higher accuracy on average. This improvement can be attributed to YOLOv11s enhanced feature extraction capabilities and ability to process the entire image in a single forward pass, making it faster and more efficient in detecting minor surface defects. Additionally, YOLOv11's architecture optimizations, such as improved anchor box generation and deeper convolutional layers, contributed to more precise localization of defects. In conclusion, YOLOv11's outstanding performance in accuracy and speed solidifies its position as the most effective model for surface defect detection on the NEU dataset, surpassing competing algorithms by a substantial margin.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/2510.17716v1",
+        "id": "http://arxiv.org/abs/2510.17716v1",
+        "title": "Automatic Classification of Circulating Blood Cell Clusters based on Multi-channel Flow Cytometry Imaging",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "Circulating blood cell clusters (CCCs) containing red blood cells (RBCs), white blood cells(WBCs), and platelets are significant biomarkers linked to conditions like thrombosis, infection, and inflammation. Flow cytometry, paired with fluorescence staining, is commonly used to analyze these cell clusters, revealing cell morphology and protein profiles. While computational approaches based on machine learning have advanced the automatic analysis of single-cell flow cytometry images, there is a lack of effort to build tools to automatically analyze images containing CCCs. Unlike single cells, cell clusters often exhibit irregular shapes and sizes. In addition, these cell clusters often consist of heterogeneous cell types, which require multi-channel staining to identify the specific cell types within the clusters. This study introduces a new computational framework for analyzing CCC images and identifying cell types within clusters. Our framework uses a two-step analysis strategy. First, it categorizes images into cell cluster and non-cluster groups by fine-tuning the You Only Look Once(YOLOv11) model, which outperforms traditional convolutional neural networks (CNNs), Vision Transformers (ViT). Then, it identifies cell types by overlaying cluster contours with regions from multi-channel fluorescence stains, enhancing accuracy despite cell debris and staining artifacts. This approach achieved over 95% accuracy in both cluster classification and phenotype identification. In summary, our automated framework effectively analyzes CCC images from flow cytometry, leveraging both bright-field and fluorescence data. Initially tested on blood cells, it holds potential for broader applications, such as analyzing immune and tumor cell clusters, supporting cellular research across various diseases.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/2510.17409v1",
+        "id": "http://arxiv.org/abs/2510.17409v1",
+        "title": "Monitoring Horses in Stalls: From Object to Event Detection",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "Monitoring the behavior of stalled horses is essential for early detection of health and welfare issues but remains labor-intensive and time-consuming. In this study, we present a prototype vision-based monitoring system that automates the detection and tracking of horses and people inside stables using object detection and multi-object tracking techniques. The system leverages YOLOv11 and BoT-SORT for detection and tracking, while event states are inferred based on object trajectories and spatial relations within the stall. To support development, we constructed a custom dataset annotated with assistance from foundation models CLIP and GroundingDINO. The system distinguishes between five event types and accounts for the camera's blind spots. Qualitative evaluation demonstrated reliable performance for horse-related events, while highlighting limitations in detecting people due to data scarcity. This work provides a foundation for real-time behavioral monitoring in equine facilities, with implications for animal welfare and stable management.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/2510.17287v1",
+        "id": "http://arxiv.org/abs/2510.17287v1",
+        "title": "Machine Vision-Based Surgical Lighting System:Design and Implementation",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "Effortless and ergonomically designed surgical lighting is critical for precision and safety during procedures. However, traditional systems often rely on manual adjustments, leading to surgeon fatigue, neck strain, and inconsistent illumination due to drift and shadowing. To address these challenges, we propose a novel surgical lighting system that leverages the YOLOv11 object detection algorithm to identify a blue marker placed above the target surgical site. A high-power LED light source is then directed to the identified location using two servomotors equipped with tilt-pan brackets. The YOLO model achieves 96.7% mAP@50 on the validation set consisting of annotated images simulating surgical scenes with the blue spherical marker. By automating the lighting process, this machine vision-based solution reduces physical strain on surgeons, improves consistency in illumination, and supports improved surgical outcomes.",
+        "markdown": null
+      }
+    ]
+  }
+]

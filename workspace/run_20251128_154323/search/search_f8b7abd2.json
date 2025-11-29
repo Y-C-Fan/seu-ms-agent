@@ -1,0 +1,103 @@
+[
+  {
+    "query": "all:(\"simple calculator\" AND implementation) ANDNOT ti:survey",
+    "arguments": {
+      "query": "all:(\"simple calculator\" AND implementation) ANDNOT ti:survey",
+      "max_results": 10,
+      "sort_strategy": "relevance",
+      "sort_order": "descending"
+    },
+    "results": [
+      {
+        "url": "https://arxiv.org/pdf/cond-mat/0611482v1",
+        "id": "http://arxiv.org/abs/cond-mat/0611482v1",
+        "title": "Simple implementation of complex functionals: scaled selfconsistency",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "We explore and compare three approximate schemes allowing simple implementation of complex density functionals by making use of selfconsistent implementation of simpler functionals: (i) post-LDA evaluation of complex functionals at the LDA densities (or those of other simple functionals); (ii) application of a global scaling factor to the potential of the simple functional; and (iii) application of a local scaling factor to that potential. Option (i) is a common choice in density-functional calculations. Option (ii) was recently proposed by Cafiero and Gonzalez. We here put their proposal on a more rigorous basis, by deriving it, and explaining why it works, directly from the theorems of density-functional theory. Option (iii) is proposed here for the first time. We provide detailed comparisons of the three approaches among each other and with fully selfconsistent implementations for Hartree, local-density, generalized-gradient, self-interaction corrected, and meta-generalized-gradient approximations, for atoms, ions, quantum wells and model Hamiltonians. Scaled approaches turn out to be, on average, better than post-approaches, and unlike these also provide corrections to eigenvalues and orbitals. Scaled selfconsistency thus opens the possibility of efficient and reliable implementation of density functionals of hitherto unprecedented complexity.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/1802.06390v2",
+        "id": "http://arxiv.org/abs/1802.06390v2",
+        "title": "Current-density implementation for calculating flexoelectric coefficients",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "The flexoelectric effect refers to polarization induced in an insulator when a strain gradient is applied. We have developed a first-principles methodology based on density-functional perturbation theory to calculate the elements of the bulk, clamped-ion flexoelectric tensor. In order to determine the transverse and shear components directly from a unit cell calculation, we calculate the current density induced by the adiabatic atomic displacements of a long-wavelength acoustic phonon. Previous implementations based on the charge-density response required supercells to capture these components. Our density-functional-theory implementation requires the development of an expression for the current density that is valid for the case of nonlocal pseudopotentials, and long-wavelength phonon perturbations. We benchmark our methodology on simple systems of isolated noble gas atoms, and apply it to calculate the clamped-ion flexoelectric constants for a variety of technologically important cubic oxides. We also discuss some technical issues that are associated with the definition of current density in a nonlocal pseudopotential context, and their relevance to the calculation of macroscopic response properties of crystals.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/2510.05282v1",
+        "id": "http://arxiv.org/abs/2510.05282v1",
+        "title": "SHarmonic: A fast and accurate implementation of spherical harmonics for electronic-structure calculations",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "The authors present SHarmonic, a new implementation of the spherical harmonics targeted for electronic-structure calculations. Their approach is to use explicit formulas for the harmonics written in terms of normalized Cartesian coordinates. This approach results in a code that is as precise as other implementations while being at least one order of magnitude more computationally efficient. The library can run on graphics processing units (GPUs) as well, achieving an additional order of magnitude in execution speed. This new implementation is simple to use and is provided under an open source license, it can be readily used by other codes to avoid the error-prone and cumbersome implementation of the spherical harmonics.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/2112.10291v1",
+        "id": "http://arxiv.org/abs/2112.10291v1",
+        "title": "A Mechanical Implementation and Diagrammatic Calculation of Entangled Basis States",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "We give for the first time a diagrammatic calculational tool of quantum entanglement. We present a pedagogical and simple mechanical implementation of quantum entanglement or \"spooky action at a distance\" to give a tangible realization of this weird quantum mechanical concept alien to classical physics. When two or more particles are correlated in a certain way, no matter how far apart they are in space, their states remain correlated. Their correlation, which is instantaneous, does not seem to involve any communication which is limited by the speed of light. The same mechanical implementation demonstrates the fundamental physical limits of any computational processes. The analytical derivations of calculational entangled basis states are given and their corresponding diagrammatic representations give an efficient aid in determining the calculational entangled basis states. A quantum Fourier transform for the two-state diagrams representing entangled basis states ('renormalized qubits') can also be formulated. Our results seem to advocate the idea that quantum entanglement generates the extra dimensions of the gravitational theory, indeed quantum entanglement is related to deep issues in the unification of general relativity and quantum mechanics. This extra dimensions of spacetime entanglement are currently being speculated in the literature.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/2403.12634v2",
+        "id": "http://arxiv.org/abs/2403.12634v2",
+        "title": "Implementation of a GHZ-Teukolsky puncture scheme for gravitational self-force calculations",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "Post-adiabatic models of extreme- and intermediate-mass-ratio inspirals will require calculations of second-order gravitational self-force effects in the spacetime of a spinning, Kerr black hole. We take a step toward such calculations by implementing the recently formulated Teukolsky puncture scheme with Green-Hollands-Zimmerman metric reconstruction [CQG 39, 015019 (2022)]. This scheme eliminates the critical obstacle of gauge singularities that arise in the standard no-string metric reconstruction. Our first proof-of-principle implementation is limited to the simple case of circular orbits in Schwarzschild spacetime, but the method also applies to generic orbits on a Kerr background. We conclude with a discussion of various approaches to the second-order self-force problem in Kerr.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/1802.04243v1",
+        "id": "http://arxiv.org/abs/1802.04243v1",
+        "title": "GPU implementation of algorithm SIMPLE-TS for calculation of unsteady, viscous, compressible and heat-conductive gas flows",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "The recent trend of using Graphics Processing Units (GPU's) for high performance computations is driven by the high ratio of price performance for these units, complemented by their cost effectiveness. At first glance, computational fluid dynamics (CFD) solvers match perfectly to GPU resources because these solvers make intensive calculations and use relatively little memory. Nevertheless, there are scarce results about the practical use of this serious advantage of GPU over CPU, especially for calculations of viscous, compressible, heat-conductive gas flows with double precision accuracy. In this paper, two GPU algorithms according to time approximation of convective terms were presented: explicit and implicit scheme. To decrease data transfers between device memories and increase the arithmetic intensity of a GPU code we minimize the number of kernels. The GPU algorithm was implemented in one kernel for the implicit scheme and two kernels for the explicit scheme. The numerical equations were put together using macros and optimization, data copy from global to private memory, and data reuse were left to the compiler. Thus keeps the code simpler with excellent maintenance. As a test case, we model the flow past squares in a microchannel at supersonic speed. The tests show that overall speedup of AMD Radeon R9 280X is up to 102x compared to Intel Core i5-4690 core and up to 184x compared to Intel Core i7-920 core, while speedup of NVIDIA Tesla M2090 is up to 11x compared to Intel Core i5-4690 core and up to 20x compared to Intel Core i7-920 core. Memory requirements of GPU code are improved compared to CPU one. It requires 1[GB] global memory for 5.9 million finite volumes that are two times less compared to C++ CPU code. After all the code is simple, portable (written in OpenCL), memory efficient and easily modifiable moreover demonstrates excellent performance.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/0908.4142v1",
+        "id": "http://arxiv.org/abs/0908.4142v1",
+        "title": "Efficient implementation of the nonequilibrium Green function method for electronic transport calculations",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "An efficient implementation of the nonequilibrium Green function (NEGF) method combined with the density functional theory (DFT) using localized pseudo-atomic orbitals (PAOs) is presented for electronic transport calculations of a system connected with two leads under a finite bias voltage. In the implementation, accurate and efficient methods are developed especially for evaluation of the density matrix and treatment of boundaries between the scattering region and the leads. Equilibrium and nonequilibrium contributions in the density matrix are evaluated with very high precision by a contour integration with a continued fraction representation of the Fermi-Dirac function and by a simple quadratureon the real axis with a small imaginary part, respectively. The Hartree potential is computed efficiently by a combination of the two dimensional fast Fourier transform (FFT) and a finite difference method, and the charge density near the boundaries is constructed with a careful treatment to avoid the spurious scattering at the boundaries. The efficiency of the implementation is demonstrated by rapid convergence properties of the density matrix. In addition, as an illustration, our method is applied for zigzag graphene nanoribbons, a Fe/MgO/Fe tunneling junction, and a LaMnO$_3/$SrMnO$_3$ superlattice, demonstrating its applicability to a wide variety of systems.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/1109.5497v1",
+        "id": "http://arxiv.org/abs/1109.5497v1",
+        "title": "A simple method to compute excitation energies in variational many-body calculations",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "We propose a simple, easy to implement, variant of the EXCITED method for variational many-body calculations for excited states. We apply this method to the Hybrid Multideterminant method(HMD). We test this method with relatively few Slater determinants by comparing the results with exact shell model calculations for ${}^{56}Ni$ using the $fpd6$ interaction. We obtain very good agreement with the exact results.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/2002.02587v2",
+        "id": "http://arxiv.org/abs/2002.02587v2",
+        "title": "Efficient implementation of the superposition of atomic potentials initial guess for electronic structure calculations in Gaussian basis sets",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "The superposition of atomic potentials (SAP) approach has recently been shown to be a simple and efficient way to initialize electronic structure calculations [S. Lehtola, J. Chem. Theory Comput. 15, 1593 (2019)]. Here, we study the differences between effective potentials from fully numerical density functional and optimized effective potential calculations for fixed configurations. We find that the differences are small, overall, and choose exchange-only potentials at the local density approximation level of theory computed on top of Hartree-Fock densities as a good compromise. The differences between potentials arising from different atomic configurations are also found to be small at this level of theory.\n  Furthermore, we discuss the efficient Gaussian-basis implementation of SAP via error function fits to fully numerical atomic radial potentials. The guess obtained from the fitted potentials can be easily implemented in any Gaussian-basis quantum chemistry code in terms of two-electron integrals. Fits covering the whole periodic table from H to Og are reported for non-relativistic as well as fully relativistic four-component calculations that have been carried out with fully numerical approaches.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/2306.01098v3",
+        "id": "http://arxiv.org/abs/2306.01098v3",
+        "title": "SIMULATeQCD: A simple multi-GPU lattice code for QCD calculations",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "The rise of exascale supercomputers has fueled competition among GPU vendors, driving lattice QCD developers to write code that supports multiple APIs. Moreover, new developments in algorithms and physics research require frequent updates to existing software. These challenges have to be balanced against constantly changing personnel. At the same time, there is a wide range of applications for HISQ fermions in QCD studies. This situation encourages the development of software featuring a HISQ action that is flexible, high-performing, open source, easy to use, and easy to adapt. In this technical paper, we explain the design strategy, provide implementation details, list available algorithms and modules, and show key performance indicators for SIMULATeQCD, a simple multi-GPU lattice code for large-scale QCD calculations, mainly developed and used by the HotQCD collaboration. The code is publicly available on GitHub.",
+        "markdown": null
+      }
+    ]
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "query": "all:(\"SHarmonic\" AND (\"cuSPHARM\" OR \"GPU spherical harmonic\")) ANDNOT ti:survey",
+    "arguments": {
+      "query": "all:(\"SHarmonic\" AND (\"cuSPHARM\" OR \"GPU spherical harmonic\")) ANDNOT ti:survey",
+      "max_results": 10,
+      "sort_strategy": "relevance",
+      "sort_order": "descending"
+    },
+    "results": [
+      {
+        "url": "https://arxiv.org/pdf/2510.05282v1",
+        "id": "http://arxiv.org/abs/2510.05282v1",
+        "title": "SHarmonic: A fast and accurate implementation of spherical harmonics for electronic-structure calculations",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "The authors present SHarmonic, a new implementation of the spherical harmonics targeted for electronic-structure calculations. Their approach is to use explicit formulas for the harmonics written in terms of normalized Cartesian coordinates. This approach results in a code that is as precise as other implementations while being at least one order of magnitude more computationally efficient. The library can run on graphics processing units (GPUs) as well, achieving an additional order of magnitude in execution speed. This new implementation is simple to use and is provided under an open source license, it can be readily used by other codes to avoid the error-prone and cumbersome implementation of the spherical harmonics.",
+        "markdown": null
+      }
+    ]
+  }
+]

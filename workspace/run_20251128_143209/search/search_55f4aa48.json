@@ -1,0 +1,85 @@
+[
+  {
+    "query": "all:(\"quantum error correction\" AND (\"CNOT count\" OR \"gate complexity\") AND (\"modular arithmetic\" OR \"Shor's algorithm\"))",
+    "arguments": {
+      "query": "all:(\"quantum error correction\" AND (\"CNOT count\" OR \"gate complexity\") AND (\"modular arithmetic\" OR \"Shor's algorithm\"))",
+      "max_results": 12,
+      "sort_strategy": "relevance",
+      "sort_order": "descending"
+    },
+    "results": [
+      {
+        "url": "https://arxiv.org/pdf/2511.12837v1",
+        "id": "http://arxiv.org/abs/2511.12837v1",
+        "title": "Exponential parallelism in practice: a comparative feature on quantum computing and instantaneous noise-based logic",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "Exponential parallelism, a defining principle of advanced computational systems, holds promise for transformative impacts across several scientific and industrial domains. This feature paper provides a comparative overview of Quantum Computing (QC) and Instantaneous Noise-based Logic (INBL), focusing on their practical strengths, limitations, and applications rather than exhaustive technical depth. Both paradigms leverage exponentially large Hilbert spaces: quantum computing achieves this via quantum superposition, while INBL realizes it through the product space of classical noise processes. Quantum computers attain universality for all computational operations, whereas current INBL frameworks are universal only for Boolean logic; notably, essential superposition operations-such as AND and OR gates-are absent, precluding implementations of algorithms like Shor's. However, for certain problem classes where full universality is not required, INBL and quantum computing can offer equivalent time and hardware complexity, as observed with the Deutsch-Jozsa algorithm. Remarkably, for search tasks such as phonebook lookup, Grover's quantum algorithm provides a quadratic O(n^0.5) speedup compared to the classical approach, while INBL achieves an exponential speedup, requiring only logarithmic time in the size n of the phonebook O(log n). Such INBL algorithms could, in principle, be adapted to quantum hardware to attain similar performance. Importantly, INBL hardware is considerably simpler, being implementable with modest modifications to conventional PC architectures equipped with a true random number generator, and it inherently avoids the decoherence and error correction challenges of quantum systems.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/2303.15615v2",
+        "id": "http://arxiv.org/abs/2303.15615v2",
+        "title": "Transversal Diagonal Logical Operators for Stabiliser Codes",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "Storing quantum information in a quantum error correction code can protect it from errors, but the ability to transform the stored quantum information in a fault tolerant way is equally important. Logical Pauli group operators can be implemented on Calderbank-Shor-Steane (CSS) codes, a commonly-studied category of codes, by applying a series of physical Pauli X and Z gates. Logical operators of this form are fault-tolerant because each qubit is acted upon by at most one gate, limiting the spread of errors, and are referred to as transversal logical operators. Identifying transversal logical operators outside the Pauli group is less well understood. Pauli operators are the first level of the Clifford hierarchy which is deeply connected to fault-tolerance and universality. In this work, we study transversal logical operators composed of single- and multi-qubit diagonal Clifford hierarchy gates. We demonstrate algorithms for identifying all transversal diagonal logical operators on a CSS code that are more general or have lower computational complexity than previous methods. We also show a method for constructing CSS codes that have a desired diagonal logical Clifford hierarchy operator implemented using single qubit phase gates. Our methods rely on representing operators composed of diagonal Clifford hierarchy gates as diagonal XP operators and this technique may have broader applications.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/2204.07011v2",
+        "id": "http://arxiv.org/abs/2204.07011v2",
+        "title": "Programming Quantum Hardware via Levenberg Marquardt Machine Learning",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "Significant challenges remain with the development of macroscopic quantum computing, hardware problems of noise, decoherence, and scaling, software problems of error correction, and, most important, algorithm construction. Finding truly quantum algorithms is quite difficult, and many quantum algorithms, like Shor prime factoring or phase estimation, require extremely long circuit depth for any practical application, necessitating error correction. Machine learning can be used as a systematic method to nonalgorithmically program quantum computers. Quantum machine learning enables us to perform computations without breaking down an algorithm into its gate building blocks, eliminating that difficult step and potentially reducing unnecessary complexity. In addition, we have shown that our machine learning approach is robust to both noise and to decoherence, which is ideal for running on inherently noisy NISQ devices which are limited in the number of qubits available for error correction. We demonstrated this using a fundamentally non classical calculation, experimentally estimating the entanglement of an unknown quantum state. Results from this have been successfully ported to the IBM hardware and trained using a powerful hybrid reinforcement learning technique which is a modified Levenberg Marquardt LM method. The LM method is ideally suited to quantum machine learning as it only requires knowledge of the final measured output of the quantum computation, not intermediate quantum states which are generally not accessible. Since it processes all the learning data simultaneously, it also requires significantly fewer hits on the quantum hardware. Machine learning is demonstrated with results from simulations and runs on the IBM Qiskit hardware interface.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/2107.10196v1",
+        "id": "http://arxiv.org/abs/2107.10196v1",
+        "title": "Prime Factorization Using Quantum Variational Imaginary Time Evolution",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "The road to computing on quantum devices has been accelerated by the promises that come from using Shor's algorithm to reduce the complexity of prime factorization. However, this promise hast not yet been realized due to noisy qubits and lack of robust error correction schemes. Here we explore a promising, alternative method for prime factorization that uses well-established techniques from variational imaginary time evolution. We create a Hamiltonian whose ground state encodes the solution to the problem and use variational techniques to evolve a state iteratively towards these prime factors. We show that the number of circuits evaluated in each iteration scales as O(n^{5}d), where n is the bit-length of the number to be factorized and $d$ is the depth of the circuit. We use a single layer of entangling gates to factorize several numbers represented using 7, 8, and 9-qubit Hamiltonians. We also verify the method's performance by implementing it on the IBMQ Lima hardware.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/2007.08327v1",
+        "id": "http://arxiv.org/abs/2007.08327v1",
+        "title": "A non-algorithmic approach to \"programming\" quantum computers via machine learning",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "Major obstacles remain to the implementation of macroscopic quantum computing: hardware problems of noise, decoherence, and scaling; software problems of error correction; and, most important, algorithm construction. Finding truly quantum algorithms is quite difficult, and many of these genuine quantum algorithms, like Shor's prime factoring or phase estimation, require extremely long circuit depth for any practical application, which necessitates error correction. In contrast, we show that machine learning can be used as a systematic method to construct algorithms, that is, to non-algorithmically \"program\" quantum computers. Quantum machine learning enables us to perform computations without breaking down an algorithm into its gate \"building blocks\", eliminating that difficult step and potentially increasing efficiency by simplifying and reducing unnecessary complexity. In addition, our non-algorithmic machine learning approach is robust to both noise and to decoherence, which is ideal for running on inherently noisy NISQ devices which are limited in the number of qubits available for error correction. We demonstrate this using a fundamentally non-classical calculation: experimentally estimating the entanglement of an unknown quantum state. Results from this have been successfully ported to the IBM hardware and trained using a hybrid reinforcement learning method.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/2001.11427v1",
+        "id": "http://arxiv.org/abs/2001.11427v1",
+        "title": "Hierarchical decoding to reduce hardware requirements for quantum computing",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "Extensive quantum error correction is necessary in order to scale quantum hardware to the regime of practical applications. As a result, a significant amount of decoding hardware is necessary to process the colossal amount of data required to constantly detect and correct errors occurring over the millions of physical qubits driving the computation. The implementation of a recent highly optimized version of Shor's algorithm to factor a 2,048-bits integer would require more 7 TBit/s of bandwidth for the sole purpose of quantum error correction and up to 20,000 decoding units. To reduce the decoding hardware requirements, we propose a fault-tolerant quantum computing architecture based on surface codes with a cheap hard-decision decoder, the lazy decoder, combined with a sophisticated decoding unit that takes care of complex error configurations. Our design drops the decoding hardware requirements by several orders of magnitude assuming that good enough qubits are provided. Given qubits and quantum gates with a physical error rate $p=10^{-4}$, the lazy decoder drops both the bandwidth requirements and the number of decoding units by a factor 50x. Provided very good qubits with error rate $p=10^{-5}$, we obtain a 1,500x reduction in bandwidth and decoding hardware thanks to the lazy decoder. Finally, the lazy decoder can be used as a decoder accelerator. Our simulations show a 10x speed-up of the Union-Find decoder and a 50x speed-up of the Minimum Weight Perfect Matching decoder.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/1905.06756v1",
+        "id": "http://arxiv.org/abs/1905.06756v1",
+        "title": "Protocol for a resonantly-driven three-qubit Toffoli gate with silicon spin qubits",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "The three-qubit Toffoli gate plays an important role in quantum error correction and complex quantum algorithms such as Shor's factoring algorithm, motivating the search for efficient implementations of this gate. Here we introduce a Toffoli gate suitable for exchange-coupled electron spin qubits in silicon quantum dot arrays. Our protocol is a natural extension of a previously demonstrated resonantly driven CNOT gate for silicon spin qubits. It is based on a single exchange pulse combined with a resonant microwave drive, with an operation time on the order of 100 ns and fidelity exceeding 99%. We analyze the impact of calibration errors and 1/f noise on the gate fidelity and compare the gate performance to Toffoli gates synthesized from two-qubit gates. Our approach is readily generalized to other controlled three-qubit gates such as the Deutsch and Fredkin gates.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/1009.2242v1",
+        "id": "http://arxiv.org/abs/1009.2242v1",
+        "title": "Minimal-memory realization of pearl-necklace encoders of general quantum convolutional codes",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "Quantum convolutional codes, like their classical counterparts, promise to offer higher error correction performance than block codes of equivalent encoding complexity, and are expected to find important applications in reliable quantum communication where a continuous stream of qubits is transmitted. Grassl and Roetteler devised an algorithm to encode a quantum convolutional code with a \"pearl-necklace encoder.\" Despite their theoretical significance as a neat way of representing quantum convolutional codes, they are not well-suited to practical realization. In fact, there is no straightforward way to implement any given pearl-necklace structure. This paper closes the gap between theoretical representation and practical implementation. In our previous work, we presented an efficient algorithm for finding a minimal-memory realization of a pearl-necklace encoder for Calderbank-Shor-Steane (CSS) convolutional codes. This work extends our previous work and presents an algorithm for turning a pearl-necklace encoder for a general (non-CSS) quantum convolutional code into a realizable quantum convolutional encoder. We show that a minimal-memory realization depends on the commutativity relations between the gate strings in the pearl-necklace encoder. We find a realization by means of a weighted graph which details the non-commutative paths through the pearl-necklace. The weight of the longest path in this graph is equal to the minimal amount of memory needed to implement the encoder. The algorithm has a polynomial-time complexity in the number of gate strings in the pearl-necklace encoder.",
+        "markdown": null
+      }
+    ]
+  }
+]

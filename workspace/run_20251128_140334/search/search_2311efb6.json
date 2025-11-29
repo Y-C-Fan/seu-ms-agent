@@ -1,0 +1,31 @@
+[
+  {
+    "query": "all:(\"calculator design\" AND \"extensibility\" AND \"modular architecture\") ANDNOT (\"scientific calculator\" OR \"trigonometric\")",
+    "arguments": {
+      "query": "all:(\"calculator design\" AND \"extensibility\" AND \"modular architecture\") ANDNOT (\"scientific calculator\" OR \"trigonometric\")",
+      "max_results": 7,
+      "sort_strategy": "relevance",
+      "sort_order": "descending"
+    },
+    "results": [
+      {
+        "url": "https://arxiv.org/pdf/2401.14691v1",
+        "id": "http://arxiv.org/abs/2401.14691v1",
+        "title": "The OpenMMPol Library for Polarizable QM/MM Calculations of Properties and Dynamics",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "We present a new library designed to provide a simple and straightforward way to implement QM/AMOEBA and other polarizable QM/MM methods based on induced point dipoles. The library, herein referred to as OpenMMPol, is free and open-sourced and is engineered to address the increasing demand for accurate and efficient QM/MM simulations. OpenMMPol is specifically designed to allow polarizable QM/MM calculations of ground state energies and gradients, and excitation properties. Key features of OpenMMPol include a modular architecture facilitating extensibility, parallel computing capabilities for enhanced performance on modern cluster architectures, and a user-friendly interface for intuitive implementation and a simple and flexible structure for providing input data. To show the capabilities of fered by the library we present an interface with PySCF to perform QM/AMOEBA molecular dynamics, geometry optimization and excited state calculation based on (TD)DFT.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/2308.06081v1",
+        "id": "http://arxiv.org/abs/2308.06081v1",
+        "title": "A Modular Engine for Quantum Monte Carlo Integration",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "We present the Quantum Monte Carlo Integration (QMCI) engine developed by Quantinuum. It is a quantum computational tool for evaluating multi-dimensional integrals that arise in various fields of science and engineering such as finance. This white paper presents a detailed description of the architecture of the QMCI engine, including a variety of distribution-loading methods, a novel quantum amplitude estimation method that improves the statistical robustness of QMCI calculations, and a library of statistical quantities that can be estimated. The QMCI engine is designed with modularity in mind, allowing for the continuous development of new quantum algorithms tailored in particular to financial applications. Additionally, the engine features a resource mode, which provides a precise resource quantification for the quantum circuits generated. The paper also includes extensive benchmarks that showcase the engine's performance, with a focus on the evaluation of various financial instruments.",
+        "markdown": null
+      }
+    ]
+  }
+]

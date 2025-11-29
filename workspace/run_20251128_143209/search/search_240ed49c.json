@@ -1,0 +1,121 @@
+[
+  {
+    "query": "all:(\"calculator implementation\" AND (\"Python\" OR \"JavaScript\" OR \"C\")) AND (simplicity OR minimalism)",
+    "arguments": {
+      "query": "all:(\"calculator implementation\" AND (\"Python\" OR \"JavaScript\" OR \"C\")) AND (simplicity OR minimalism)",
+      "max_results": 12,
+      "sort_strategy": "relevance",
+      "sort_order": "descending"
+    },
+    "results": [
+      {
+        "url": "https://arxiv.org/pdf/2411.18024v1",
+        "id": "http://arxiv.org/abs/2411.18024v1",
+        "title": "SPARC-X-API: Versatile Python Interface for Real-space Density Functional Theory Calculations",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "Density Functional Theory (DFT) is the de facto workhorse for large-scale electronic structure calculations in chemistry and materials science. While plane-wave DFT implementations remain the most widely used, real-space DFT provides advantages in handling complex boundary conditions and scaling to very large systems by allowing for the efficient use of large-scale supercomputers and linear-scaling methods that circumvent the cubic scaling bottleneck. The SPARC-X project (https://github.com/SPARC-X) provides highly efficient and portable real-space DFT codes for a wide range of first principle applications, available in both Matlab (M-SPARC) and C/C++ (SPARC). The rapid growth of SPARC's feature set has created the need for a fully functional interface to drive SPARC in high-throughput calculations. Here we introduce SPARC-X-API, a Python package designed to bridge the SPARC-X project with broader computational frameworks. Built on the atomic simulation environment (ASE) standard, the SPARC-X-API allows users to handle SPARC file formats and run SPARC calculations through the same interface as with other ASE-compatible DFT packages. Beyond standard ASE capabilities, SPARC-X-API provides additional features including 1) support of SPARC-specific setups, including complex boundary conditions and unit conversion, 2) a JSON schema parsed from SPARC's documentation for parameter validation and compatibility checks, and 3) a comprehensive socket communication layer derived from the i-PI protocol facilitating message passing between low-level C code and the Python interface. The goal of the SPARC-X-API is to provide an easy-to-use interface for users with diverse needs and levels of expertise, allowing for minimal effort in adapting SPARC to existing computational workflows, while also supporting developers of advanced real-space methods.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/2105.14096v1",
+        "id": "http://arxiv.org/abs/2105.14096v1",
+        "title": "DEWPython: A Python Implementation of the Deep Earth Water Model and Application to Ocean Worlds",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "There are two main methods of calculating the thermodynamic properties of water and solutes: mass action (including the Helgeson-Kirkham-Flowers (HKF) equations of state and model) and Gibbs free energy minimization (e.g. Leal et al., 2016). However, in certain regions of pressure and temperature the HKF model inaccurately predicts the speciation and concentration of solutes (e.g. Miron et al., 2019). The Deep Earth Water (DEW) model uses a series of HKF-type equations to calculate the properties of water and solute concentrations at high temperatures (373 - 1473 K) and pressures (0.1 - 6 GPa) (e.g. Huang and Sverjensky, 2019; Pan et al., 2013; Sverjensky et al., 2014). The DEW model is synthesized in an Excel spreadsheet and calculates Gibbs energies of formation, equilibrium constants, and standard volume changes for reactions. Here we present an object-oriented Python implementation of the DEW model, called DEWPython. Our model expands on DEW by increasing model efficiency, streamlining the input process, and incorporating SUPCRT in-line. Additionally, our model builds in minerals and aqueous species from the thermodynamic database slop16.dat (Boyer, 2019) which would normally be calculated separately. We also present a set of reactions relevant to icy ocean world interiors calculated with the DEWPython. The favorability of these reactions indicates likely formation of certain organic species under extreme pressures relevant to ocean worlds.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/2202.06427v3",
+        "id": "http://arxiv.org/abs/2202.06427v3",
+        "title": "CellListMap.jl: Efficient and customizable cell list implementation for calculation of pairwise particle properties within a cutoff",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "N-body simulations and trajectory analysis rely on the calculation of attributes that depend on pairwise particle distances within a cutoff. Interparticle potential energies, forces, distribution functions, neighbor lists, and distance-dependent distributions, for example, must be calculated. Cell lists are widely used to avoid computing distances outside the cutoff. However, efficient cell list implementations are difficult to customize. Here, we provide a fast and parallel implementation of cell lists in Julia that allows the mapping of custom functions dependent on particle positions in 2 or 3 dimensions. Arbitrary periodic boundary conditions are supported. Automatic differentiation and unit propagation can be used. The implementation provides a framework for the development of new analysis tools and simulations with custom potentials. The performance of resulting computations is comparable to state-of-the-art implementations of neighbor list algorithms and cell lists, available in specialized software. Examples are provided for the computation of potential energies, forces, distribution of pairwise velocities, neighbor lists and other typical calculations in molecular and astrophysical simulations. The Julia package is freely available at http://m3g.github.io/CellListMap.jl. Interfacing with Python and R with minimal overhead is possible.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/2110.01702v1",
+        "id": "http://arxiv.org/abs/2110.01702v1",
+        "title": "Using C++ to Calculate $\\mathsf{SO(10)}$ Tensor Couplings",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "\\noindent Model building in $\\mathsf{SO(10)}$, which is the leading grand unification framework, often involves large Higgs representations and their couplings. Explicit calculations of such couplings is a multi-step process that involves laborious calculations that are time-consuming and error-prone, an issue which only grows as the complexity of the coupling increases. Therefore, there exists an opportunity to leverage the abilities of computer software in order to algorithmically perform these calculations on-demand. This paper outlines the details of such a software, implemented in C++ using in-built libraries. The software is capable of accepting invariant couplings involving an arbitrary number of $\\mathsf{SO(10)}$ Higgs tensors, each having up to 5 indices. The output is then produced in \\LaTeX, so that it is universally readable and sufficiently expressive. Through the use of this software, $\\mathsf{SO(10)}$ coupling analysis can be performed in a way that minimizes calculation time, eliminates errors, and allows for experimentation with couplings that have not been computed before in the literature. Furthermore, this software can be expanded in the future to account for similar Higgs-Spinor coupling analysis, or extended to include further $\\mathsf{SO(N)}$ invariant couplings.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/1410.1059v1",
+        "id": "http://arxiv.org/abs/1410.1059v1",
+        "title": "Programing implementation of the Quine-McCluskey method for minimization of Boolean expression",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "A Boolean function is a function that produces a Boolean value output by logical calculation of Boolean inputs. It plays key roles in programing algorithms and design of circuits. Minimization of Boolean function is able to optimize the algorithms and circuits. Quine-McCluskey (QM) method is one of the most powerful techniques to simplify Boolean expressions. Compared to other techniques, QM method is more executable and can handle more variables. In addition, QM method is easier to be implemented in computer programs, which makes it an efficient technique. There are several versions of QM simulation codes online, whereas some of them appear to have limitations of variables numbers or lack the consideration of Dont-Care conditions. Here a QM simulation code based on C programing is introduced. Theoretically it is able to handle any number of variables and has taken the Dont-Care conditions into account.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/hep-ph/0105349v1",
+        "id": "http://arxiv.org/abs/hep-ph/0105349v1",
+        "title": "The Implementation of the Minimal Supersymmetric Standard Model in FeynArts and FormCalc",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "We describe the implementation of the MSSM in the diagram generator FeynArts and the calculational tool FormCalc. This extension allows to perform loop calculations of MSSM processes almost fully automatically. The actual implementation has two aspects: The MSSM Feynman rules are specified in a new model file for FeynArts. The computation of the parameters in the MSSM Lagrangian from the input parameters is realized as a Fortran subroutine in the framework of FormCalc. The model file does not depend on the latter, however, and can be used even if one does not want to continue the calculation with FormCalc. The Feynman rules have been entered in a very generic way to allow e.g. scenarios with complex parameters, and have been tested extensively by reproducing known results for several non-trivial scattering processes.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/1802.04243v1",
+        "id": "http://arxiv.org/abs/1802.04243v1",
+        "title": "GPU implementation of algorithm SIMPLE-TS for calculation of unsteady, viscous, compressible and heat-conductive gas flows",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "The recent trend of using Graphics Processing Units (GPU's) for high performance computations is driven by the high ratio of price performance for these units, complemented by their cost effectiveness. At first glance, computational fluid dynamics (CFD) solvers match perfectly to GPU resources because these solvers make intensive calculations and use relatively little memory. Nevertheless, there are scarce results about the practical use of this serious advantage of GPU over CPU, especially for calculations of viscous, compressible, heat-conductive gas flows with double precision accuracy. In this paper, two GPU algorithms according to time approximation of convective terms were presented: explicit and implicit scheme. To decrease data transfers between device memories and increase the arithmetic intensity of a GPU code we minimize the number of kernels. The GPU algorithm was implemented in one kernel for the implicit scheme and two kernels for the explicit scheme. The numerical equations were put together using macros and optimization, data copy from global to private memory, and data reuse were left to the compiler. Thus keeps the code simpler with excellent maintenance. As a test case, we model the flow past squares in a microchannel at supersonic speed. The tests show that overall speedup of AMD Radeon R9 280X is up to 102x compared to Intel Core i5-4690 core and up to 184x compared to Intel Core i7-920 core, while speedup of NVIDIA Tesla M2090 is up to 11x compared to Intel Core i5-4690 core and up to 20x compared to Intel Core i7-920 core. Memory requirements of GPU code are improved compared to CPU one. It requires 1[GB] global memory for 5.9 million finite volumes that are two times less compared to C++ CPU code. After all the code is simple, portable (written in OpenCL), memory efficient and easily modifiable moreover demonstrates excellent performance.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/1112.1268v1",
+        "id": "http://arxiv.org/abs/1112.1268v1",
+        "title": "Minimal parameter implicit solvent model for ab initio electronic structure calculations",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "We present an implicit solvent model for ab initio electronic structure calculations which is fully self-consistent and is based on direct solution of the nonhomogeneous Poisson equation. The solute cavity is naturally defined in terms of an isosurface of the electronic density according to the formula of Fattebert and Gygi (J. Comp. Chem. 23, 6 (2002)). While this model depends on only two parameters, we demonstrate that by using appropriate boundary conditions and dispersion-repulsion contributions, solvation energies obtained for an extensive test set including neutral and charged molecules show dramatic improvement compared to existing models. Our approach is implemented in, but not restricted to, a linear-scaling density functional theory (DFT) framework, opening the path for self-consistent implicit solvent DFT calculations on systems of unprecedented size, which we demonstrate with calculations on a 2615-atom protein-ligand complex.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/2510.25938v1",
+        "id": "http://arxiv.org/abs/2510.25938v1",
+        "title": "Revisiting and Accelerating the Basin Hopping Algorithm for Lennard-Jones Clusters: Adaptive and Parallel Implementation in Python",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "We present an adaptive and parallel implementation of the Basin Hopping (BH) algorithm for the global optimization of atomic clusters interacting via the Lennard-Jones (LJ) potential. The method integrates local energy minimization with adaptive step-size Monte Carlo moves and simultaneous evaluation of multiple trial structures, enabling efficient exploration of complex potential energy landscapes while maintaining a balance between exploration and refinement. Parallel evaluation of candidate structures significantly reduces wall-clock time, achieving nearly linear speedup for up to eight concurrent local minimizations. This framework provides a practical and scalable strategy to accelerate Basin Hopping searches, directly extendable to ab initio calculations such as density functional theory (DFT) on high-performance computing architectures.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/2302.14793v2",
+        "id": "http://arxiv.org/abs/2302.14793v2",
+        "title": "TREXIO: A File Format and Library for Quantum Chemistry",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "TREXIO is an open-source file format and library developed for the storage and manipulation of data produced by quantum chemistry calculations. It is designed with the goal of providing a reliable and efficient method of storing and exchanging wave function parameters and matrix elements, making it an important tool for researchers in the field of quantum chemistry. In this work, we present an overview of the TREXIO file format and library. The library consists of a front-end implemented in the C programming language and two different back-ends: a text back-end and a binary back-end utilizing the HDF5 library which enables fast read and write operations. It is compatible with a variety of platforms and has interfaces for the Fortran, Python, and OCaml programming languages. In addition, a suite of tools has been developed to facilitate the use of the TREXIO format and library, including converters for popular quantum chemistry codes and utilities for validating and manipulating data stored in TREXIO files. The simplicity, versatility, and ease of use of TREXIO make it a valuable resource for researchers working with quantum chemistry data.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/hep-lat/9710025v1",
+        "id": "http://arxiv.org/abs/hep-lat/9710025v1",
+        "title": "Lattice HQET Calculation of the Isgur-Wise Function",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "We calculate the Isgur-Wise function on the lattice, simulating the light quark with the Wilson action and the heavy quark with a direct lattice implementation of the heavy-quark effective theory. Improved smearing functions produced by a variational technique, MOST, are used to reduce the statistical errors and to minimize excited-state contamination of the ground-state signal. Calculating the required matching factors, we obtain $ξ'(1)=-0.64(13)$ for the slope of the Isgur-Wise function in continuum-HQET in the $\\barMS$ scheme at a scale of $4.0 $GeV.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/2303.01501v1",
+        "id": "http://arxiv.org/abs/2303.01501v1",
+        "title": "Stability and Machine Learning Applications of Persistent Homology Using the Delaunay-Rips Complex",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "In this paper we define, implement, and investigate a simplicial complex construction for computing persistent homology of Euclidean point cloud data, which we call the Delaunay-Rips complex (DR). Assigning the Vietoris-Rips weights to simplices, DR experiences speed-up in the persistence calculations by only considering simplices that appear in the Delaunay triangulation of the point cloud. We document and compare a Python implementation of DR with other simplicial complex constructions for generating persistence diagrams. By imposing sufficient conditions on point cloud data, we are able to theoretically justify the stability of the persistence diagrams produced using DR. When the Delaunay triangulation of the point cloud changes under perturbations of the points, we prove that DR-produced persistence diagrams exhibit instability. Since we cannot guarantee that real-world data will satisfy our stability conditions, we demonstrate the practical robustness of DR for persistent homology in comparison with other simplicial complexes in machine learning applications. We find in our experiments that using DR for an ML-TDA pipeline performs comparatively well as using other simplicial complex constructions.",
+        "markdown": null
+      }
+    ]
+  }
+]

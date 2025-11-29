@@ -1,0 +1,12 @@
+[
+  {
+    "query": "all:(\"embedded vision system\" AND (\"geohazard monitoring\" OR \"volcano monitoring\")) AND (\"latency\" OR \"power consumption\" OR \"detection accuracy\") ANDNOT (Arduino OR OpenCV)",
+    "arguments": {
+      "query": "all:(\"embedded vision system\" AND (\"geohazard monitoring\" OR \"volcano monitoring\")) AND (\"latency\" OR \"power consumption\" OR \"detection accuracy\") ANDNOT (Arduino OR OpenCV)",
+      "max_results": 12,
+      "sort_strategy": "relevance",
+      "sort_order": "descending"
+    },
+    "results": []
+  }
+]

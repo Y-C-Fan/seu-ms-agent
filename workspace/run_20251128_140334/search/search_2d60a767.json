@@ -1,0 +1,76 @@
+[
+  {
+    "query": "all:(\"quantum arithmetic circuit\" AND (\"modular multiplication\" OR \"modular addition\" OR \"quantum adder\")) AND (abs:\"IBM Quantum\" OR abs:\"Rigetti\" OR abs:\"ion trap\" OR abs:\"superconducting qubit\")",
+    "arguments": {
+      "query": "all:(\"quantum arithmetic circuit\" AND (\"modular multiplication\" OR \"modular addition\" OR \"quantum adder\")) AND (abs:\"IBM Quantum\" OR abs:\"Rigetti\" OR abs:\"ion trap\" OR abs:\"superconducting qubit\")",
+      "max_results": 15,
+      "sort_strategy": "relevance",
+      "sort_order": "descending"
+    },
+    "results": [
+      {
+        "url": "https://arxiv.org/pdf/2112.09349v2",
+        "id": "http://arxiv.org/abs/2112.09349v2",
+        "title": "Performance Evaluations of Signed and Unsigned Noisy Approximate Quantum Fourier Arithmetic",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "The Quantum Fourier Transform (QFT) grants competitive advantages, especially in resource usage and circuit approximation, for performing arithmetic operations on quantum computers, and offers a potential route towards a numerical quantum-computational paradigm. In this paper, we utilize efficient techniques to implement QFT-based integer addition and multiplications. These operations are fundamental to various quantum applications including Shor's algorithm, weighted sum optimization problems in data processing and machine learning, and quantum algorithms requiring inner products. We carry out performance evaluations of these implementations based on IBM's superconducting qubit architecture using different compatible noise models. We isolate the sensitivity of the component quantum circuits on both one-/two-qubit gate error rates, and the number of the arithmetic operands' superposed integer states. We analyze performance, and identify the most effective approximation depths for unsigned quantum addition and quantum multiplication within the given context. We then perform a similar analysis of signed addition and compare to the unsigned results. We observe significant dependency of the optimal approximation depth on the degree of machine noise and the number of superposed states in certain performance regimes. Finally, we elaborate on the algorithmic challenges - relevant to signed, unsigned, modular and non-modular versions - that could also be applied to current implementations of QFT-based subtraction, division, exponentiation, and their potential tensor extensions. We analyze the performance trends in our results and speculate on possible future developments within this computational paradigm.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/2503.22564v2",
+        "id": "http://arxiv.org/abs/2503.22564v2",
+        "title": "Exploration of Design Alternatives for Reducing Idle Time in Shor's Algorithm: A Study on Monolithic and Distributed Quantum Systems",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "Shor's algorithm is one of the most prominent quantum algorithms, yet finding efficient implementations remains an active research challenge. While many approaches focus on low-level modular arithmetic optimizations, a broader perspective can provide additional opportunities for improvement. By adopting a mid-level abstraction, we analyze the algorithm as a sequence of computational tasks, enabling systematic identification of idle time and optimization of execution flow. Building on this perspective, we first introduce an alternating design approach to minimize idle time while preserving qubit efficiency in Shor's algorithm. By strategically reordering tasks for simultaneous execution, we achieve a substantial reduction in overall execution time. Extending this approach to distributed implementations, we demonstrate how task rearrangement enhances execution efficiency in the presence of multiple distribution channels. Furthermore, to effectively evaluate the impact of design choices, we employ static timing analysis (STA) -- a technique from classical circuit design -- to analyze circuit delays while accounting for hardware-specific execution characteristics, such as measurement and reset delays in monolithic architectures and ebit generation time in distributed settings. Finally, we validate our approach by integrating modular exponentiation circuits from QRISP and constructing circuits for factoring numbers up to 64 bits. Through an extensive study across neutral atom, superconducting, and ion trap quantum computing platforms, we analyze circuit delays, highlighting trade-offs between qubit efficiency and execution time. Our findings provide a structured framework for optimizing compiled quantum circuits for Shor's algorithm, tailored to specific hardware constraints.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/2502.06767v2",
+        "id": "http://arxiv.org/abs/2502.06767v2",
+        "title": "Fat-Tree QRAM: A High-Bandwidth Shared Quantum Random Access Memory for Parallel Queries",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "Quantum Random Access Memory (QRAM) is a crucial architectural component for querying classical or quantum data in superposition, enabling algorithms with wide-ranging applications in quantum arithmetic, quantum chemistry, machine learning, and quantum cryptography. In this work, we introduce Fat-Tree QRAM, a novel query architecture capable of pipelining multiple quantum queries simultaneously while maintaining desirable scalings in query speed and fidelity. Specifically, Fat-Tree QRAM performs $O(\\log (N))$ independent queries in $O(\\log (N))$ time using $O(N)$ qubits, offering immense parallelism benefits over traditional QRAM architectures. To demonstrate its experimental feasibility, we propose modular and on-chip implementations of Fat-Tree QRAM based on superconducting circuits and analyze their performance and fidelity under realistic parameters. Furthermore, a query scheduling protocol is presented to maximize hardware utilization and access the underlying data at an optimal rate. These results suggest that Fat-Tree QRAM is an attractive architecture in a shared memory system for practical quantum computing.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/2408.01002v1",
+        "id": "http://arxiv.org/abs/2408.01002v1",
+        "title": "A Logarithmic Depth Quantum Carry-Lookahead Modulo $(2^n-1)$ Adder",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "Quantum Computing is making significant advancements toward creating machines capable of implementing quantum algorithms in various fields, such as quantum cryptography, quantum image processing, and optimization. The development of quantum arithmetic circuits for modulo addition is vital for implementing these quantum algorithms. While it is ideal to use quantum circuits based on fault-tolerant gates to overcome noise and decoherence errors, the current Noisy Intermediate Scale Quantum (NISQ) era quantum computers cannot handle the additional computational cost associated with fault-tolerant designs. Our research aims to minimize circuit depth, which can reduce noise and facilitate the implementation of quantum modulo addition circuits on NISQ machines. This work presents quantum carry-lookahead modulo $(2^n - 1)$ adder (QCLMA), which is designed to receive two n-bit numbers and perform their addition with an O(log n) depth. Compared to existing work of O(n) depth, our proposed QCLMA reduces the depth and helps increase the noise fidelity. In order to increase error resilience, we also focus on creating a tree structure based Carry path, unlike the chain based Carry path of the current work. We run experiments on Quantum Computer IBM Cairo to evaluate the performance of the proposed QCLMA against the existing work and define Quantum State Fidelity Ratio (QSFR) to quantify the closeness of the correct output to the top output. When compared against existing work, the proposed QCLMA achieves a 47.21% increase in QSFR for 4-qubit modulo addition showcasing its superior noise fidelity.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/2406.07486v1",
+        "id": "http://arxiv.org/abs/2406.07486v1",
+        "title": "Novel Optimized Designs of Modulo $2n+1$ Adder for Quantum Computing",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "Quantum modular adders are one of the most fundamental yet versatile quantum computation operations. They help implement functions of higher complexity, such as subtraction and multiplication, which are used in applications such as quantum cryptanalysis, quantum image processing, and securing communication. To the best of our knowledge, there is no existing design of quantum modulo $(2n+1)$ adder. In this work, we propose four quantum adders targeted specifically for modulo $(2n+1)$ addition. These adders can provide both regular and modulo $(2n+1)$ sum concurrently, enhancing their application in residue number system based arithmetic. Our first design, QMA1, is a novel quantum modulo $(2n+1)$ adder. The second proposed adder, QMA2, optimizes the utilization of quantum gates within the QMA1, resulting in 37.5% reduced CNOT gate count, 46.15% reduced CNOT depth, and 26.5% decrease in both Toffoli gates and depth. We propose a third adder QMA3 that uses zero resets, a dynamic circuits based feature that reuses qubits, leading to 25% savings in qubit count. Our fourth design, QMA4, demonstrates the benefit of incorporating additional zero resets to achieve a purer zero state, reducing quantum state preparation errors. Notably, we conducted experiments using 5-qubit configurations of the proposed modulo $(2n+1)$ adders on the IBM Washington, a 127-qubit quantum computer based on the Eagle R1 architecture, to demonstrate a 28.8% reduction in QMA1's error of which: (i) 18.63% error reduction happens due to gate and depth reduction in QMA2, and (ii) 2.53% drop in error due to qubit reduction in QMA3, and (iii) 7.64% error decreased due to application of additional zero resets in QMA4.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/2406.05294v1",
+        "id": "http://arxiv.org/abs/2406.05294v1",
+        "title": "Residue Number System (RNS) based Distributed Quantum Addition",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "Quantum Arithmetic faces limitations such as noise and resource constraints in the current Noisy Intermediate Scale Quantum (NISQ) era quantum computers. We propose using Distributed Quantum Computing (DQC) to overcome these limitations by substituting a higher depth quantum addition circuit with Residue Number System (RNS) based quantum modulo adders. The RNS-based distributed quantum addition circuits possess lower depth and are distributed across multiple quantum computers/jobs, resulting in higher noise resilience. We propose the Quantum Superior Modulo Addition based on RNS Tool (QSMART), which can generate RNS sets of quantum adders based on multiple factors such as depth, range, and efficiency. We also propose a novel design of Quantum Diminished-1 Modulo (2n + 1) Adder (QDMA), which forms a crucial part of RNS-based distributed quantum addition and the QSMART tool. We demonstrate the higher noise resilience of the Residue Number System (RNS) based distributed quantum addition by conducting simulations modeling Quantinuum's H1 ion trap-based quantum computer. Our simulations demonstrate that RNS-based distributed quantum addition has 11.36% to 133.15% higher output probability over 6-bit to 10-bit non-distributed quantum full adders, indicating higher noise fidelity. Furthermore, we present a scalable way of achieving distributed quantum addition higher than limited otherwise by the 20-qubit range of Quantinuum H1.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/2305.11410v1",
+        "id": "http://arxiv.org/abs/2305.11410v1",
+        "title": "Minimizing CNOT-count in quantum circuit of the extended Shor's algorithm for ECDLP",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "Since the elliptic curve discrete logarithms problem (ECDLP) was proposed, it has been widely used in cryptosystem because of its strong security. Although the proposal of the extended Shor's algorithm offers hope for cracking ECDLP, it is debatable whether the algorithm can actually pose a threat in practice. From the perspective of the quantum circuit of the algorithm, we analyze the feasibility of cracking ECDLP with improved quantum circuits using an ion trap quantum computer.\n  We give precise quantum circuits for extended Shor's algorithm to calculate discrete logarithms on elliptic curves over prime fields, including modulus subtraction, three different modulus multiplication, modulus inverse, and windowed arithmetic. Whereas previous studies mostly focused on minimizing the number of qubits or the depth of the circuit, we minimize the number of CNOTs, which greatly affects the time to run the algorithm on an ion trap quantum computer. First, we give the implementation of the basic arithmetic with the lowest known number of CNOTs and the construction of an improved modular inverse, point addition, and the windowing technique. Then, we precisely estimate the number of improved quantum circuits needed to perform the extended Shor's algorithm for factoring an n-bit integer. We analyze the running time and feasibility of the extended Shor's algorithm on an ion trap quantum computer according to the number of CNOTs. Finally, we discussed the lower bound of the number of CNOTs needed to implement the extended Shor's algorithm.",
+        "markdown": null
+      }
+    ]
+  }
+]

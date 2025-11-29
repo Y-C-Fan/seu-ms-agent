@@ -1,0 +1,12 @@
+[
+  {
+    "query": "all:(\"GHZ puncture scheme\" AND (\"Kerr spacetime\" OR \"second-order self-force\")) AND (\"mode coupling\" OR \"black hole perturbation theory\")",
+    "arguments": {
+      "query": "all:(\"GHZ puncture scheme\" AND (\"Kerr spacetime\" OR \"second-order self-force\")) AND (\"mode coupling\" OR \"black hole perturbation theory\")",
+      "max_results": 10,
+      "sort_strategy": "relevance",
+      "sort_order": "descending"
+    },
+    "results": []
+  }
+]

@@ -1,0 +1,103 @@
+[
+  {
+    "query": "all:(\"basic arithmetic calculator\" AND implementation) ANDNOT (\"graphing calculator\" OR \"scientific calculator\")",
+    "arguments": {
+      "query": "all:(\"basic arithmetic calculator\" AND implementation) ANDNOT (\"graphing calculator\" OR \"scientific calculator\")",
+      "max_results": 10,
+      "sort_strategy": "relevance",
+      "sort_order": "descending"
+    },
+    "results": [
+      {
+        "url": "https://arxiv.org/pdf/1503.02349v2",
+        "id": "http://arxiv.org/abs/1503.02349v2",
+        "title": "Arithmetic in Metamath, Case Study: Bertrand's Postulate",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "Unlike some other formal systems, the proof system Metamath has no built-in concept of \"decimal number\" in the sense that arbitrary digit strings are not recognized by the system without prior definition. We present a system of theorems and definitions and an algorithm to apply these as basic operations to perform arithmetic calculations with a number of steps proportional to an arbitrary-precision arithmetic calculation. We consider as case study the formal proof of Bertrand's postulate, which required the calculation of many small primes. Using a Mathematica implementation, we were able to complete the first formal proof in Metamath using numbers larger than 10. Applications to the mechanization of Metamath proofs are discussed, and a heuristic argument for the feasability of large proofs such as Tom Hales' proof of the Kepler conjecture is presented.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/2402.03822v2",
+        "id": "http://arxiv.org/abs/2402.03822v2",
+        "title": "RevOrder: A Novel Method for Enhanced Arithmetic in Language Models",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "This paper presents RevOrder, a novel technique aimed at improving arithmetic operations in large language models (LLMs) by reversing the output digits in addition, subtraction, and n-digit by 1-digit (nD by 1D) multiplication tasks. Our method significantly reduces the Count of Sequential Intermediate Digits (CSID) to $\\mathcal{O}(1)$, a new metric we introduce to assess equation complexity. Through comprehensive testing, RevOrder not only achieves perfect accuracy in basic arithmetic operations but also substantially boosts LLM performance in division tasks, particularly with large numbers where traditional models struggle. Implementation of RevOrder is cost-effective for both training and inference phases. Moreover, applying RevOrder to fine-tune the LLaMA2-7B model on the GSM8K math task results in a considerable improvement, reducing equation calculation errors by 46% and increasing overall scores from 41.6 to 44.4.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/2211.04053v1",
+        "id": "http://arxiv.org/abs/2211.04053v1",
+        "title": "A study and comparison of COordinate Rotation DIgital Computer (CORDIC) architectures",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "Most of the digital signal processing applications performs operations like multiplication, addition, square-root calculation, solving linear equations etc. The physical implementation of these operations consumes a lot of hardware and, software implementation consumes large memory. Even if they are implemented in hardware, they do not provide high speed, and due to this reason, even today the software implementation dominates hardware. For realizing operations from basic to very complex ones with less hardware, a Co-ordinate Rotation Digital Computer (CORDIC) proves beneficial. It is capable of performing mathematical operations right from addition to highly complex functions with the help of arithmetic unit and shifters only. This paper gives a brief overview of various existing CORDIC architectures, their working principle, application domain and a comparison of these architectures. Different designs are available as per the target, i.e. high accuracy and precision, low area, low latency, hardware efficient, low power, reconfigurability, etc. that can be used as per the application in which the architecture needs to be employed.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/2305.11410v1",
+        "id": "http://arxiv.org/abs/2305.11410v1",
+        "title": "Minimizing CNOT-count in quantum circuit of the extended Shor's algorithm for ECDLP",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "Since the elliptic curve discrete logarithms problem (ECDLP) was proposed, it has been widely used in cryptosystem because of its strong security. Although the proposal of the extended Shor's algorithm offers hope for cracking ECDLP, it is debatable whether the algorithm can actually pose a threat in practice. From the perspective of the quantum circuit of the algorithm, we analyze the feasibility of cracking ECDLP with improved quantum circuits using an ion trap quantum computer.\n  We give precise quantum circuits for extended Shor's algorithm to calculate discrete logarithms on elliptic curves over prime fields, including modulus subtraction, three different modulus multiplication, modulus inverse, and windowed arithmetic. Whereas previous studies mostly focused on minimizing the number of qubits or the depth of the circuit, we minimize the number of CNOTs, which greatly affects the time to run the algorithm on an ion trap quantum computer. First, we give the implementation of the basic arithmetic with the lowest known number of CNOTs and the construction of an improved modular inverse, point addition, and the windowing technique. Then, we precisely estimate the number of improved quantum circuits needed to perform the extended Shor's algorithm for factoring an n-bit integer. We analyze the running time and feasibility of the extended Shor's algorithm on an ion trap quantum computer according to the number of CNOTs. Finally, we discussed the lower bound of the number of CNOTs needed to implement the extended Shor's algorithm.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/2504.19827v1",
+        "id": "http://arxiv.org/abs/2504.19827v1",
+        "title": "Quantum oracles for the finite element method",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "In order to assess potential advantages of quantum algorithms that require quantum oracles as subroutines, the careful evaluation of the overall complexity of the oracles themselves is crucial. This study examines the quantum routines required for the implementation of oracles used in the block-encoding of the $N \\times N$ stiffness and mass matrices, which typically emerge in the finite element analysis of elastic structures. Starting from basic quantum adders, we show how to construct the necessary oracles, which require the calculation of polynomials, square root and the implementation of conditional operations. We propose quantum subroutines based on fixed-point arithmetic that, given an $r$-qubit register, construct the oracle using $\\mathcal{O}((K + L + N_{\\mathrm{geo}} + N_{\\mathrm{D}}) r)$ ancilla qubits and have a $\\mathcal{O}((K + L)r^2 + \\log_2(N_{\\mathrm{geo}} + N_{\\mathrm{D}}))$ runtime, with $K$ the order at which we truncate the polynomials, $L$ the number of iterations in the Newton-Raphson subroutine for the square root, while $N_{\\mathrm{geo}}$ and $N_{\\mathrm{D}}$ are the number of hypercuboids used to approximate the geometry and the boundary, respectively. Since in practice $r$ scales as $r = \\mathcal{O}(\\log_2 N)$, and assuming that the other parameters are fixed independently of $N$, this shows that the oracles, while still costly in practice, do not endanger potential polynomial or exponential advantages in $N$.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/2008.02623v2",
+        "id": "http://arxiv.org/abs/2008.02623v2",
+        "title": "Quantum circuit to estimate pi using quantum amplitude estimation",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "This study presents a quantum circuit for estimating the pi value using arithmetic circuits and by quantum amplitude estimation. We review two types of quantum multipliers and propose quantum squaring circuits based on the multiplier as basic arithmetic circuits required for performing quantum computations. The squarer realized by a quantum adder with the gate size of $ O(n) $ requires $ O(n^2) $ gates and at least one ancillary qubits, while that realized by using quantum Fourier transform (QFT) requires $ O(n^3) $ gates without ancillary qubit. The proposed quantum circuit to estimate pi is based on the Monte Carlo method, quantum amplitude estimation, and quantum squarer. By applying the quantum squarer using QFT, the circuit was implemented in $ 4n + 1 $ qubits at $ 2^{2n} $ sampling. The proposed method was demonstrated using a quantum computer simulator with $ n $ being varied from 2 to 6, and the obtained result was compared with the one obtained by performing a classical calculation.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/1611.05939v2",
+        "id": "http://arxiv.org/abs/1611.05939v2",
+        "title": "SC-DCNN: Highly-Scalable Deep Convolutional Neural Network using Stochastic Computing",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "With recent advancing of Internet of Things (IoTs), it becomes very attractive to implement the deep convolutional neural networks (DCNNs) onto embedded/portable systems. Presently, executing the software-based DCNNs requires high-performance server clusters in practice, restricting their widespread deployment on the mobile devices. To overcome this issue, considerable research efforts have been conducted in the context of developing highly-parallel and specific DCNN hardware, utilizing GPGPUs, FPGAs, and ASICs. Stochastic Computing (SC), which uses bit-stream to represent a number within [-1, 1] by counting the number of ones in the bit-stream, has a high potential for implementing DCNNs with high scalability and ultra-low hardware footprint. Since multiplications and additions can be calculated using AND gates and multiplexers in SC, significant reductions in power/energy and hardware footprint can be achieved compared to the conventional binary arithmetic implementations. The tremendous savings in power (energy) and hardware resources bring about immense design space for enhancing scalability and robustness for hardware DCNNs. This paper presents the first comprehensive design and optimization framework of SC-based DCNNs (SC-DCNNs). We first present the optimal designs of function blocks that perform the basic operations, i.e., inner product, pooling, and activation function. Then we propose the optimal design of four types of combinations of basic function blocks, named feature extraction blocks, which are in charge of extracting features from input feature maps. Besides, weight storage methods are investigated to reduce the area and power/energy consumption for storing weights. Finally, the whole SC-DCNN implementation is optimized, with feature extraction blocks carefully selected, to minimize area and power/energy consumption while maintaining a high network accuracy level.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/1806.06511v2",
+        "id": "http://arxiv.org/abs/1806.06511v2",
+        "title": "A Universal Quantum Computing Virtual Machine",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "A medium-scale quantum computer with full universal quantum computing capability is necessary for various practical aims and testing applications. Here we report a 34-qubit quantum virtual machine (QtVM) based on a medium server. Our QtVM can run quantum assembly language with graphic interfaces. The QtVM is implemented with single qubit rotation gate, single to multiple controlled NOT gates to realize the universal quantum computation. Remarkably, it can realize a series of basic functions, such as, the \"if\" conditional programming language based on single-shot projective measurement results, \"for\" iteration programming language, build in arithmetic calculation. The measurement can be single-shot and arbitrary number of multi-shot types. In addition, there is in principle no limitation on number of logic gates implemented for quantum computation. By using QtVM, we demonstrate the simulation of dynamical quantum phase transition of transverse field Ising model by quantum circuits, where 34 qubits with one million gates are realized. We also show the realization of programmable Shor algorithm for factoring 15 and 35.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/1901.02716v1",
+        "id": "http://arxiv.org/abs/1901.02716v1",
+        "title": "Macroscopic Lattice Boltzmann Method (MacLAB)",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "The birth of the lattice Boltzmann method (LBM) fulfils a dream that simple arithmetic calculations can simulate complex fluid flows without solving complicated partial differential flow equations. Its power and potential of resolving more and more challenging physical problems have been and are being demonstrated in science and engineering covering a wide range of disciplines such as physics, chemistry, biology, material science and image analysis. The method is a highly simplified model for fluid flows using a few limited fictitious particles that move one grid at a constant time interval and collide each other at a grid point on uniform lattices, which are the two routine steps for implementation of the method to simulate fluid flows. As such, a real complex particle dynamics is approximated as a regular particle model using three parameters of lattice size, particle speed and collision operator. A fundamental question is \"Are the two steps integral to the method or can the three parameters be reduced to one for a minimal lattice Boltzmann method?\". Here, I show that the collision step can be removed and the standard LBM can be reformulated into a simple macroscopic lattice Boltzmann method (MacLAB). This model relies on macroscopic physical variables only and is completely defined by one basic parameter of lattice size dx, bringing the LBM into a precise \"Lattice\" Boltzmann method. The viscous effect on flows is naturally embedded through the particle speed, making it an ideal automatic simulator for fluid flows. The findings have been demonstrated and confirmed with numerical tests including flows that are independent of and dependent on fluid viscosity, 2D and 3D cavity flows, and an unsteady Taylor-Green vortex flow. This provides an efficient and powerful model for resolving physical problems in various disciplines of science and engineering.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/1908.09549v1",
+        "id": "http://arxiv.org/abs/1908.09549v1",
+        "title": "Oprema -- The Relay Computer of Carl Zeiss Jena",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "The Oprema (Optikrechenmaschine = computer for optical calculations) was a relay computer whose development was initiated by Herbert Kortum and which was designed and built by a team under the leadership of Wilhelm Kaemmerer at Carl Zeiss Jena (CZJ) in 1954 and 1955. Basic experiments, design and construction of machine-1 were all done, partly concurrently, in the remarkably short time of about 14 months. Shortly after the electronic G 2 of Heinz Billing in Goettingen it was the 7th universal computer in Germany and the 1st in the GDR. The Oprema consisted of two identical machines. One machine consisted of about 8,300 relays, 45,000 selenium rectifiers and 250 km cable. The main reason for the construction of the Oprema was the computational needs of CZJ, which was the leading company for optics and precision mechanics in the GDR. During its lifetime (1955-1963) the Oprema was applied by CZJ and a number of other institutes and companies in the GDR. The paper presents new details of the Oprema project and of the arithmetic operations implemented in the Oprema. Additionally, it covers briefly the lives of the two protagonists, W. Kaemmerer and H. Kortum, and draws some comparisons with other early projects, namely Colossus, ASCC/Mark 1 and ENIAC. Finally, it discusses the question, whether Kortum is a German computer pioneer.",
+        "markdown": null
+      }
+    ]
+  }
+]

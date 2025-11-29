@@ -1,0 +1,22 @@
+[
+  {
+    "query": "all:(\"quantum embedding\" AND (\"Hartree-Fock\" OR \"Density Functional Theory\")) AND (ti:Qiskit OR abs:\"open-source implementation\") ANDNOT ti:\"v0.8\"",
+    "arguments": {
+      "query": "all:(\"quantum embedding\" AND (\"Hartree-Fock\" OR \"Density Functional Theory\")) AND (ti:Qiskit OR abs:\"open-source implementation\") ANDNOT ti:\"v0.8\"",
+      "max_results": 15,
+      "sort_strategy": "relevance",
+      "sort_order": "descending"
+    },
+    "results": [
+      {
+        "url": "https://arxiv.org/pdf/2502.17963v2",
+        "id": "http://arxiv.org/abs/2502.17963v2",
+        "title": "ByteQC: GPU-Accelerated Quantum Chemistry Package for Large-Scale Systems",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "Applying quantum chemistry algorithms to large-scale systems requires substantial computational resources scaled with the system size and the desired accuracy. To address this, ByteQC, a fully-functional and efficient package for large-scale quantum chemistry simulations, has been open-sourced at https://github.com/bytedance/byteqc, leveraging recent advances in computational power and many-body algorithms.\n  Regarding computational power, several standard algorithms are efficiently implemented on modern GPUs, ranging from mean-field calculations (Hartree-Fock and density functional theory) to post-Hartree-Fock methods such as Møller-Plesset perturbation theory, random phase approximation, coupled cluster methods, and quantum Monte Carlo methods. For the algorithmic approach, we also employ a quantum embedding method, which significantly expands the tractable system size while preserving high accuracy at the gold-standard level.\n  All these features have been systematically benchmarked. For standalone algorithms, the benchmark results demonstrate up to a 60$\\times$ speedup when compared to 100-core CPUs. Additionally, the tractable system sizes have been significantly expanded: 1,610 orbitals for coupled cluster with single and double excitations (1,380 orbitals with perturbative triple excitations), 11,040 orbitals for Møller-Plesset perturbation theory of second order, 37,120 orbitals for mean-field calculations under open boundary conditions, and over 100,000 orbitals for periodic boundary conditions. For the advanced quantum embedding feature, two representative examples are demonstrated: the water cluster problem (2,752 orbitals) and a water monomer adsorbed on a boron nitride surface (3,929 orbitals), achieving the gold-standard accuracy.",
+        "markdown": null
+      }
+    ]
+  }
+]

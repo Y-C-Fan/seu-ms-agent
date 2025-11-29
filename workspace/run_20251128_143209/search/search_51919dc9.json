@@ -1,0 +1,12 @@
+[
+  {
+    "query": "all:(\"Delaunay-Rips filtration\" AND (instability OR \"cocircular perturbation\")) AND (\"persistent homology\" OR \"topological data analysis\") AND (\"Alpha complex\" OR \"Witness complex\")",
+    "arguments": {
+      "query": "all:(\"Delaunay-Rips filtration\" AND (instability OR \"cocircular perturbation\")) AND (\"persistent homology\" OR \"topological data analysis\") AND (\"Alpha complex\" OR \"Witness complex\")",
+      "max_results": 12,
+      "sort_strategy": "relevance",
+      "sort_order": "descending"
+    },
+    "results": []
+  }
+]

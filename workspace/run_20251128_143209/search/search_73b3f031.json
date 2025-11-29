@@ -1,0 +1,12 @@
+[
+  {
+    "query": "all:(\"Python-C++ interoperability\" AND (\"socket protocol\" OR \"C binding\")) AND (\"density functional theory\" OR DFT) AND (\"high-throughput\" OR scalability)",
+    "arguments": {
+      "query": "all:(\"Python-C++ interoperability\" AND (\"socket protocol\" OR \"C binding\")) AND (\"density functional theory\" OR DFT) AND (\"high-throughput\" OR scalability)",
+      "max_results": 15,
+      "sort_strategy": "relevance",
+      "sort_order": "descending"
+    },
+    "results": []
+  }
+]

@@ -237,7 +237,9 @@ class TestGeneratorAgent:
         logger.debug("Sending prompt to LLM...")
         response_messages = []
         
-        async for msg in self.agent.run(messages=messages):
+        # Use the agent's run method (await the coroutine first)
+        generator = await self.agent.run(messages=messages)
+        async for msg in generator:
             response_messages.append(msg)
         
         # Extract the generated tests from responses

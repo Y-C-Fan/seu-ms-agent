@@ -1,0 +1,12 @@
+[
+  {
+    "query": "all:(\"modular architecture\" AND \"extensible calculator\" AND (\"arithmetic backend\" OR \"function library\")) ANDNOT (\"scientific calculator\" OR trigonometric)",
+    "arguments": {
+      "query": "all:(\"modular architecture\" AND \"extensible calculator\" AND (\"arithmetic backend\" OR \"function library\")) ANDNOT (\"scientific calculator\" OR trigonometric)",
+      "max_results": 15,
+      "sort_strategy": "relevance",
+      "sort_order": "descending"
+    },
+    "results": []
+  }
+]

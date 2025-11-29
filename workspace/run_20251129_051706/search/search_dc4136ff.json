@@ -1,0 +1,12 @@
+[
+  {
+    "query": "all:(\"RegexSkipDumpParser\" AND (\"malformed XML\" OR \"nested XML\")) ANDNOT (SAX OR \"event-driven parsing\")",
+    "arguments": {
+      "query": "all:(\"RegexSkipDumpParser\" AND (\"malformed XML\" OR \"nested XML\")) ANDNOT (SAX OR \"event-driven parsing\")",
+      "max_results": 8,
+      "sort_strategy": "relevance",
+      "sort_order": "descending"
+    },
+    "results": []
+  }
+]

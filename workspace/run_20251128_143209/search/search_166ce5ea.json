@@ -1,0 +1,12 @@
+[
+  {
+    "query": "all:(\"expression parsing\" AND (\"recursive descent\" OR \"shunting yard\")) AND calculator",
+    "arguments": {
+      "query": "all:(\"expression parsing\" AND (\"recursive descent\" OR \"shunting yard\")) AND calculator",
+      "max_results": 10,
+      "sort_strategy": "relevance",
+      "sort_order": "descending"
+    },
+    "results": []
+  }
+]

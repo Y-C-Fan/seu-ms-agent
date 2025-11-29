@@ -1,0 +1,40 @@
+[
+  {
+    "query": "ti:(\"calculator\" AND (\"embedded system\" OR \"microcontroller\"))",
+    "arguments": {
+      "query": "ti:(\"calculator\" AND (\"embedded system\" OR \"microcontroller\"))",
+      "max_results": 6,
+      "sort_strategy": "relevance",
+      "sort_order": "descending"
+    },
+    "results": [
+      {
+        "url": "https://arxiv.org/pdf/2208.08884v1",
+        "id": "http://arxiv.org/abs/2208.08884v1",
+        "title": "Synergistic Integration of Techniques of VC, Communication Technologies and Unities of Calculation Transportable for Generate a System Embedded That Monitors Pyroclastic Flows in Real Time",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "At the end of an extensive investigation of the volcanic eruptions in the world, we determined patterns that coincide in this process, this data can be analyzed by artificial vision, obtaining the largest amount of information from images in an embedded system, using monitoring algorithms for compare continuous matrices, control camera positioning and link this information with mass communication technologies. The present work shows the development of a viable early warning technology solution that allows to analyze the behavior of volcanic flows automatically in a rash in real time, with a very high level of efficiency in the analysis of possible trajectories, direction and quantity of the lava flows as well as the massive mass media directed to the affected people.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/2009.01872v1",
+        "id": "http://arxiv.org/abs/2009.01872v1",
+        "title": "Quantum HF/DFT-Embedding Algorithms for Electronic Structure Calculations: Scaling up to Complex Molecular Systems",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "In the near future, material and drug design may be aided by quantum computer assisted simulations. These have the potential to target chemical systems intractable by the most powerful classical computers. However, the resources offered by contemporary quantum computers are still limited, restricting the chemical simulations to very simple molecules. In order to rapidly scale up to more interesting molecular systems, we propose the embedding of the quantum electronic structure calculation into a classically computed environment obtained at the Hartree-Fock (HF) or Density Functional Theory (DFT) level of theory. We achieve this by constructing an effective Hamiltonian that incorporates a mean field potential describing the action of the inactive electrons on a selected Active Space (AS). The ground state of the AS Hamiltonian is determined by means of the Variational Quantum Eigensolver (VQE) algorithm. With the proposed iterative DFT embedding scheme we are able to obtain energy correction terms for a single pyridine molecule that outperform the Complete Active Space Self Consistent Field (CASSCF) results regardless of the chosen AS.",
+        "markdown": null
+      },
+      {
+        "url": "https://arxiv.org/pdf/1911.08699v2",
+        "id": "http://arxiv.org/abs/1911.08699v2",
+        "title": "Complexity Reduction in Density Functional Theory Calculations of Large Systems: System Partitioning and Fragment Embedding",
+        "highlights": null,
+        "highlight_scores": null,
+        "summary": "With the development of low order scaling methods for performing Kohn-Sham Density Functional Theory, it is now possible to perform fully quantum mechanical calculations of systems containing tens of thousands of atoms. However, with an increase in the size of system treated comes an increase in complexity, making it challenging to analyze such large systems and determine the cause of emergent properties. To address this issue, in this paper we present a systematic complexity reduction methodology which can break down large systems into their constituent fragments, and quantify inter-fragment interactions. The methodology proposed here requires no a priori information or user interaction, allowing a single workflow to be automatically applied to any system of interest. We apply this approach to a variety of different systems, and show how it allows for the derivation of new system descriptors, the design of QM/MM partitioning schemes, and the novel application of graph metrics to molecules and materials.",
+        "markdown": null
+      }
+    ]
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "query": "abs:(\"operator precedence\" AND \"expression parsing\" AND calculator) AND ti:(\"command line\" OR \"CLI\")",
+    "arguments": {
+      "query": "abs:(\"operator precedence\" AND \"expression parsing\" AND calculator) AND ti:(\"command line\" OR \"CLI\")",
+      "max_results": 8,
+      "sort_strategy": "relevance",
+      "sort_order": "descending"
+    },
+    "results": []
+  }
+]

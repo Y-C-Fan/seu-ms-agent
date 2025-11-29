@@ -1,0 +1,12 @@
+[
+  {
+    "query": "all:(\"stochastic computing\" AND (\"energy-delay-accuracy tradeoff\" OR \"SC-DCNN\")) AND (\"analog computing\" OR \"memristive computing\" OR \"spiking neural network\") ANDNOT ti:survey",
+    "arguments": {
+      "query": "all:(\"stochastic computing\" AND (\"energy-delay-accuracy tradeoff\" OR \"SC-DCNN\")) AND (\"analog computing\" OR \"memristive computing\" OR \"spiking neural network\") ANDNOT ti:survey",
+      "max_results": 12,
+      "sort_strategy": "relevance",
+      "sort_order": "descending"
+    },
+    "results": []
+  }
+]
